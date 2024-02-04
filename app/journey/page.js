@@ -14,7 +14,7 @@ const journey = () => {
           <h4 className="text-3xl font-semibold">MILESTONES</h4>
         </div>
       </div>
-      <div className="w-full flex flex-col content-center items-center overflow-hidden py-16 px-5 border-2 border-red-500">
+      <div className="w-full flex flex-col content-center items-center overflow-hidden py-16 px-5">
         <JourneyCard />
         <JourneyCard />
         <JourneyCard />

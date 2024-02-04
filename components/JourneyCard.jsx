@@ -36,19 +36,6 @@ const JourneyCard = () => {
       y: -20,
       duration: 1,
     });
-    gsap.to(".heading", {
-      scrollTrigger: {
-        trigger: ".heading",
-        start: "top center",
-        end: "top end",
-        scrub: "true",
-        // markers: "true",
-        toggleActions: "play none none none",
-      },
-      opacity: 1,
-      y: -20,
-      duration: 1,
-    });
   }, []);
   return (
     <div className="flex  flex-row min-h-min z-1 gap-4 justify-items-center even:flex-row-reverse">
