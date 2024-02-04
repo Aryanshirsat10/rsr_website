@@ -4,16 +4,16 @@ import { useState } from "react";
 const Navbar = () => {
   const menu = [
     {
-      name: "Home",
-      to: "/",
-    },
-    {
       name: "Journey",
       to: "/journey",
     },
     {
       name: "Team",
       to: "/team",
+    },
+    {
+      name: "Sponsors",
+      to: "/sponsors"
     },
     {
       name: "Contact",
@@ -30,7 +30,9 @@ const Navbar = () => {
       {/* PC Navbar */}
       <div className="flex items-center justify-between w-full ">
         <div>
-          <img src="/images/logo-white.png" alt="" className="w-36" />
+          <a href="/">
+            <img src="/images/logo-white.png" alt="" className="w-36" />
+          </a>
         </div>
         <div className="gap-7 px-5 mt-1 hidden md:flex">
           {menu.map((item, index) => {
