@@ -26,7 +26,7 @@ const Navbar = () => {
   const toggleMenu = () => setShowMenu(!showMenu);
 
   return (
-    <div className="px-5 py-1 fixed left-0 top-0 right-0  overflow-hidden z-10">
+    <div className="px-5 py-1 fixed left-0 top-0 right-0  overflow-hidden bg-black z-50">
       {/* PC Navbar */}
       <div className="flex items-center justify-between w-full ">
         <div>
