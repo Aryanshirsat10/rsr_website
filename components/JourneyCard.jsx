@@ -39,8 +39,8 @@ const JourneyCard = ({index, title, para}) => {
     });
   }, [index]);
   return (
-    <div className="flex  flex-row min-h-min z-1 gap-4 justify-items-center even:flex-row-reverse">
-      <div className="content-center items-center flex flex-row gap-6 min-h-96 max-w-[610px] pb-32 min-w-[385px]">
+    <div className="flex  flex-row min-h-min z-1 gap-4 justify-items-center lg:even:flex-row-reverse">
+      <div className="hidden content-center items-center lg:flex flex-row gap-6 min-h-96 max-w-[610px] pb-32 min-w-[385px]">
         &nbsp;
       </div>
       <div className="content-start items-center justify-center flex h-min flex-col w-[100px]">
