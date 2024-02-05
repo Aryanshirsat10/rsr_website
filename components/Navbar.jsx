@@ -16,6 +16,10 @@ const Navbar = () => {
       to: "/sponsors"
     },
     {
+      name: "Fund US",
+      to: "/fund"
+    },
+    {
       name: "Contact",
       to: "#contact",
     },
