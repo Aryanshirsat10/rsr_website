@@ -1,4 +1,3 @@
-"use client";
 import Navbar from "@/components/Navbar";
 import JourneyCard from "@/components/JourneyCard";
 import { journeycard } from "@/constants";
