@@ -26,7 +26,7 @@ const Navbar = () => {
   const toggleMenu = () => setShowMenu(!showMenu);
 
   return (
-    <div className="px-5 py-1 fixed left-0 top-0 right-0  overflow-hidden bg-black z-50">
+    <div className="px-5 py-1 fixed left-0 top-0 right-0  overflow-hidden bg-black z-50 shadow-2xl shadow-slate-900">
       {/* PC Navbar */}
       <div className="flex items-center justify-between w-full ">
         <div>
@@ -60,7 +60,7 @@ const Navbar = () => {
 
       {/* Mobile Navbar */}
       {showMenu && (
-        <div className="md:hidden w-full p-2 h-screen md:h-auto">
+        <div className="md:hidden w-full p-2 h-screen md:h-auto shadow-2xl shadow-slate-900">
           <div className="flex flex-col gap-2">
             {menu.map((item, index) => {
               return (
