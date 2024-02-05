@@ -138,5 +138,27 @@ const sponsors = [
         link:"https://www.scantech.com/"
     }
 ]
+const journeycard=[
+    {
+        title:'Heading',
+        para: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquam nisl sit amet lacus volutpat, vitae commodo odio tincidunt.Suspendisse libero purus, tincidunt in massa vel, eleifend aliquet mi. Sed erat lorem, posuere quis dolor ullamcorper, posuere bibendum arcu. Donec lacinia rutrum nibh faucibus malesuada. Quisque nonaliquam nibh, quis laoreet magna. Morbi blandit ex sed lorem blanditinterdum.'
+    },
+    {
+        title:'Heading',
+        para: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquam nisl sit amet lacus volutpat, vitae commodo odio tincidunt.Suspendisse libero purus, tincidunt in massa vel, eleifend aliquet mi. Sed erat lorem, posuere quis dolor ullamcorper, posuere bibendum arcu. Donec lacinia rutrum nibh faucibus malesuada. Quisque nonaliquam nibh, quis laoreet magna. Morbi blandit ex sed lorem blanditinterdum.'
+    },
+    {
+        title:'Heading',
+        para: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquam nisl sit amet lacus volutpat, vitae commodo odio tincidunt.Suspendisse libero purus, tincidunt in massa vel, eleifend aliquet mi. Sed erat lorem, posuere quis dolor ullamcorper, posuere bibendum arcu. Donec lacinia rutrum nibh faucibus malesuada. Quisque nonaliquam nibh, quis laoreet magna. Morbi blandit ex sed lorem blanditinterdum.'
+    },
+    {
+        title:'Heading',
+        para: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquam nisl sit amet lacus volutpat, vitae commodo odio tincidunt.Suspendisse libero purus, tincidunt in massa vel, eleifend aliquet mi. Sed erat lorem, posuere quis dolor ullamcorper, posuere bibendum arcu. Donec lacinia rutrum nibh faucibus malesuada. Quisque nonaliquam nibh, quis laoreet magna. Morbi blandit ex sed lorem blanditinterdum.'
+    },
+    {
+        title:'Heading',
+        para: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquam nisl sit amet lacus volutpat, vitae commodo odio tincidunt.Suspendisse libero purus, tincidunt in massa vel, eleifend aliquet mi. Sed erat lorem, posuere quis dolor ullamcorper, posuere bibendum arcu. Donec lacinia rutrum nibh faucibus malesuada. Quisque nonaliquam nibh, quis laoreet magna. Morbi blandit ex sed lorem blanditinterdum.'
+    },
 
-export {sponsors}
+]
+export {sponsors,journeycard}

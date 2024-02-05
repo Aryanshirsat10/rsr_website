@@ -2,7 +2,7 @@ import { motion, useAnimation, useScroll, useSpring } from "framer-motion";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-const JourneyCard = () => {
+const JourneyCard = ({index, title, para}) => {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -11,9 +11,9 @@ const JourneyCard = () => {
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
-    gsap.to(".circle", {
+    gsap.to(`#circle${index}`, {
       scrollTrigger: {
-        trigger: ".circle",
+        trigger: `#circle${index}`,
         start: "top 65%",
         end: "top top",
         // markers: 'true',
@@ -23,9 +23,9 @@ const JourneyCard = () => {
       opacity: 1,
       duration: 0.5,
     });
-    gsap.to(".heading", {
+    gsap.to(`#heading${index}`, {
       scrollTrigger: {
-        trigger: ".heading",
+        trigger: `#heading${index}`,
         start: "top center",
         end: "top top",
         scrub: "true",
@@ -36,7 +36,7 @@ const JourneyCard = () => {
       y: -20,
       duration: 1,
     });
-  }, []);
+  }, [index]);
   return (
     <div className="flex  flex-row min-h-min z-1 gap-4 justify-items-center even:flex-row-reverse">
       <div className="content-center items-center flex flex-row gap-6 min-h-96 max-w-[610px] pb-32 min-w-[385px]">
@@ -44,7 +44,7 @@ const JourneyCard = () => {
       </div>
       <div className="content-start items-center justify-center flex h-min flex-col w-[100px]">
         <div className="flex items-center justify-center gap-2 h-16 w-16 z-10 bg-black">
-          <div className="w-4 h-4 rounded-full bg-white item-center opacity-5 circle z-10">
+          <div id={`circle${index}`} className="w-4 h-4 rounded-full bg-white item-center opacity-5 z-10">
             &nbsp;
           </div>
         </div>
@@ -57,21 +57,13 @@ const JourneyCard = () => {
           </motion.div>
         </div>
       </div>
-      <div className="flex flex-start flex-col h-min content-center pb-32 gap-6 max-w-[385px] opacity-0 heading">
+      <div id={`heading${index}`} className="flex flex-start flex-col h-min content-center pb-32 gap-6 max-w-[385px] opacity-0">
         <div className="flex flex-col flex-start gap-1 justify-center">
           <h1>&nbsp;</h1>
-          <h1 className="text-3xl font-bold">Heading</h1>
+          <h1 className="text-3xl font-bold">{title}</h1>
         </div>
         <div className="flex flex-col flex-start text-base text-justify ">
-          <p className="justify-start text-slate-300">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-            aliquam nisl sit amet lacus volutpat, vitae commodo odio tincidunt.
-            Suspendisse libero purus, tincidunt in massa vel, eleifend aliquet
-            mi. Sed erat lorem, posuere quis dolor ullamcorper, posuere bibendum
-            arcu. Donec lacinia rutrum nibh faucibus malesuada. Quisque non
-            aliquam nibh, quis laoreet magna. Morbi blandit ex sed lorem blandit
-            interdum.
-          </p>
+          <p className="justify-start text-slate-300">{para}</p>
         </div>
       </div>
     </div>
