@@ -18,6 +18,11 @@ module.exports = {
 
       fontFamily: {
         Poppins: ["Poppins", "sans-serif"],
+        EncodeSans: ["Encode Sans Condensed", "sans-serif"],
+      },
+
+      boxShadow: {
+        teamShadow: "0px 0px 30px rgba(255, 0, 0, 0.2)",
       },
     },
   },
