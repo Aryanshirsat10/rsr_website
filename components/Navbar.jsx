@@ -13,15 +13,15 @@ const Navbar = () => {
     },
     {
       name: "Sponsors",
-      to: "/sponsors"
+      to: "/sponsors",
     },
     {
       name: "Fund US",
-      to: "/fund"
+      to: "/fund",
     },
     {
       name: "Contact",
-      to: "#contact",
+      to: "/#contact",
     },
   ];
 
@@ -30,7 +30,7 @@ const Navbar = () => {
   const toggleMenu = () => setShowMenu(!showMenu);
 
   return (
-    <div className="px-5 py-1 fixed left-0 top-0 right-0  overflow-hidden bg-black z-50 shadow-2xl shadow-slate-900">
+    <div className="px-5 py-4 fixed left-0 top-0 right-0 overflow-hidden bg-black z-50 shadow-2xl shadow-slate-900">
       {/* PC Navbar */}
       <div className="flex items-center justify-between w-full ">
         <div>
