@@ -5,7 +5,7 @@ const Fund = () => {
   return (
     <>
       <Navbar />
-      <div className="mt-20 pt-8 flex flex-col flex-wrap gap-10 h-full items-center justify-center">
+      <div className="mt-16 pt-10 flex flex-col flex-wrap gap-10 h-full items-center justify-center">
         <div>
           <h2 className="text-3xl font-bold">Benefits To Get</h2>
         </div>
