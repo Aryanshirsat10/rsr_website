@@ -182,6 +182,216 @@ const journeycard = [
 
 const teamMembers = [
   {
+    value: "2023-24",
+    members: [
+      {
+        role: "Captain",
+        name: "Prasad Joshi",
+        position: null,
+      },
+      {
+        role: "Technical Coordinator",
+        name: "",
+        position: null,
+      },
+      {
+        role: "Admin",
+        name: "",
+        position: null,
+      },
+      {
+        role: "Chassis",
+        name: "",
+        position: "Head",
+      },
+      {
+        role: "Chassis",
+        name: "",
+        position: "Co-Head",
+      },
+      {
+        role: "Chassis",
+        name: "",
+        position: "Co-Head",
+      },
+      {
+        role: "Chassis",
+        name: "",
+        position: null,
+      },
+      {
+        role: "Chassis",
+        name: "",
+        position: null,
+      },
+      {
+        role: "Chassis",
+        name: "",
+        position: null,
+      },
+      {
+        role: "Drivetrain",
+        name: "",
+        position: "Head",
+      },
+      {
+        role: "Drivetrain",
+        name: "",
+        position: "Co-Head",
+      },
+      {
+        role: "Drivetrain",
+        name: "",
+        position: "Co-Head",
+      },
+      {
+        role: "Drivetrain",
+        name: "",
+        position: null,
+      },
+      {
+        role: "Drivetrain",
+        name: "",
+        position: null,
+      },
+      {
+        role: "Drivetrain",
+        name: "",
+        position: null,
+      },
+      {
+        role: "Drivetrain",
+        name: "",
+        position: null,
+      },
+      {
+        role: "Drivetrain",
+        name: "",
+        position: null,
+      },
+      {
+        role: "Suspension & Steering",
+        name: "",
+        position: "Head",
+      },
+      {
+        role: "Suspension & Steering",
+        name: "",
+        position: null,
+      },
+      {
+        role: "Suspension & Steering",
+        name: "",
+        position: null,
+      },
+      {
+        role: "Suspension & Steering",
+        name: "",
+        position: null,
+      },
+      {
+        role: "Suspension & Steering",
+        name: "",
+        position: null,
+      },
+      {
+        role: "Brakes",
+        name: "",
+        position: "Head",
+      },
+      {
+        role: "Brakes",
+        name: "",
+        position: null,
+      },
+      {
+        role: "Brakes",
+        name: "",
+        position: null,
+      },
+      {
+        role: "Brakes",
+        name: "",
+        position: null,
+      },
+      {
+        role: "Brakes",
+        name: "",
+        position: null,
+      },
+      {
+        role: "Brakes",
+        name: "",
+        position: null,
+      },
+      {
+        role: "Brakes",
+        name: "",
+        position: null,
+      },
+      {
+        role: "DAQ",
+        name: "",
+        position: "Head",
+      },
+      {
+        role: "DAQ",
+        name: "",
+        position: "Co-Head",
+      },
+      {
+        role: "DAQ",
+        name: "",
+        position: "Co-Head",
+      },
+      {
+        role: "DAQ",
+        name: "",
+        position: null,
+      },
+      {
+        role: "DAQ",
+        name: "",
+        position: null,
+      },
+      {
+        role: "DAQ",
+        name: "",
+        position: null,
+      },
+      {
+        role: "Creatives",
+        name: "",
+        position: "Head",
+      },
+      {
+        role: "Aerial Cinematographer",
+        name: "",
+        position: null,
+      },
+      {
+        role: "Website Admin",
+        name: "",
+        position: null,
+      },
+      {
+        role: "Website Admin",
+        name: "",
+        position: null,
+      },
+      {
+        role: "Website Admin",
+        name: "",
+        position: null,
+      },
+      {
+        role: "Website Admin",
+        name: "",
+        position: null,
+      },
+    ],
+  },
+  {
     value: "2022-23",
     members: [
       {
