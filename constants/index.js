@@ -1443,4 +1443,148 @@ const teamMembers = [
   },
 ];
 
-export { sponsors, journeycard, teamMembers };
+const achievements = [
+    {
+      rank: "1st Place",
+      round: "PRELIMINARY ROUND",
+      year: "2021-2022"
+    },
+    {
+      rank: "5TH PLACE",
+      round: "VALIDATION EVENT",
+      year: "2021-2022"
+    },
+    {
+      rank: "8TH PLACE",
+      round: "VIRTUAL MANEUVERABILITY",
+      year: "2021-2022"
+    },
+    {
+      rank: "8TH PLACE",
+      round: "ACCELERATION EVENT",
+      year: "2021-2022"
+    },
+    {
+      rank: "8TH PLACE",
+      round: "4 HOUR ENDURANCE RACE",
+      year: "2021-2022"
+    },
+    {
+      rank: "10TH PLACE",
+      round: "OVERALL VIRTUAL DYNAMICS",
+      year: "2021-2022"
+    },
+    {
+      rank: "11TH PLACE",
+      round: "VIRTUAL SUSPENSION & TRACTION",
+      year: "2021-2022"
+    },
+    {
+      rank: "12TH PLACE",
+      round: "Virtual All Terrain Performance",
+      year: "2021-2022"
+    },
+    {
+      rank: "8TH PLACE",
+      round: "Overall in Baja SAE",
+      year: "2021-2022"
+    },
+    {
+      rank: "AIR 3",
+      round: "MANUFACTURING EVENT",
+      year: "2020-2021"
+    },
+    {
+      rank: "AIR 4",
+      round: "SALES PRESENTATION",
+      year: "2020-2021"
+    },
+    {
+      rank: "AIR 6",
+      round: "OVERALL STATIC EVENT",
+      year: "2020-2021"
+    },
+    {
+      rank: "AIR 10",
+      round: "DESIGN PRESENTATION",
+      year: "2020-2021"
+    },
+    {
+      rank: "AIR 17",
+      round: "BRAKE TEST",
+      year: "2020-2021"
+    },
+    {
+      rank: "AIR 20",
+      round: "CAE EVALUATION",
+      year: "2020-2021"
+    },
+    {
+      rank: "AIR 25",
+      round: "OVERALL EVENT",
+      year: "2020-2021"
+    },
+    {
+      rank: "5th Place",
+      round: "Sales Presentation",
+      year: "2019-2020"
+    },
+    {
+      rank: "8th Place",
+      round: "Cost Evaluation",
+      year: "2019-2020"
+    },
+    {
+      rank: "9th Place",
+      round: "Acceleration Event",
+      year: "2019-2020"
+    },
+    {
+      rank: "4th Place",
+      round: "India Virtuals",
+      year: "2018-2019"
+    },
+    {
+      rank: "9th Place",
+      round: "Design at Indore",
+      year: "2018-2019"
+    },
+    {
+      rank: "3rd Place",
+      round: "Overall ranking in India",
+      year: "2018-2019"
+    },
+    {
+      rank: "23rd Place",
+      round: "Overall amongst 90 participating teams.",
+      year: "2017-2018"
+    },
+    {
+      rank: "3rd Place",
+      round: "Engineering Design",
+      year: "2017-2018"
+    },
+    {
+      rank: "4th Place",
+      round: "Business Plan Presentation",
+      year: "2017-2018"
+    },
+    {
+      rank: "17th Place",
+      round: "DirtX",
+      year: "2017-2018"
+    },
+    {
+      rank: "Rank 6th",
+      round: "Business Plan Presentation",
+      year: "Oregon USA"
+    },
+    {
+      rank: "Rank 5th",
+      round: "Amongst Indian Teams",
+      year: "Oregon USA"
+    }
+  
+
+];
+export { sponsors, journeycard, teamMembers, achievements };
