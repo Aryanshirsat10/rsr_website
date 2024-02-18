@@ -1,5 +1,5 @@
 "use client";
-import { Tabs, Tab, Card, CardBody } from "@nextui-org/react";
+import { Tabs, Tab } from "@nextui-org/react";
 
 import Navbar from "@/components/Navbar";
 import TeamCard from "@/components/TeamCard";
@@ -21,20 +21,18 @@ const teamPage = () => {
           {teamMembers.map((item, index) => {
             return (
               <Tab key={index} title={item.value}>
-                <Card className="rounded-none border-none outline-none">
-                  <CardBody className="text-white bg-black flex flex-row w-full items-center justify-center content-center flex-wrap p-10">
-                    {item.members.map((member, ind) => {
-                      return (
-                        <TeamCard
-                          name={member.name}
-                          role={member.role}
-                          position={member.position}
-                          key={ind}
-                        />
-                      );
-                    })}
-                  </CardBody>
-                </Card>
+                <div className="rounded-none border-none outline-none text-white bg-black flex flex-row w-full items-center justify-center content-center flex-wrap p-10">
+                  {item.members.map((member, ind) => {
+                    return (
+                      <TeamCard
+                        name={member.name}
+                        role={member.role}
+                        position={member.position}
+                        key={ind}
+                      />
+                    );
+                  })}
+                </div>
               </Tab>
             );
           })}
