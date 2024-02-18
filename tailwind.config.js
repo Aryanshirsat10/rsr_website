@@ -28,6 +28,9 @@ module.exports = {
       boxShadow: {
         teamShadow: "0px 0px 30px rgba(255, 0, 0, 0.2)",
       },
+      gridTemplateColumns: {
+        gallery: "repeat(auto-fit, minmax(250px, 1fr))",
+      },
     },
   },
   darkMode: "class",
