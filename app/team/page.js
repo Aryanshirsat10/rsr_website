@@ -4,7 +4,7 @@ import { Tabs, Tab } from "@nextui-org/react";
 import Navbar from "@/components/Navbar";
 import TeamCard from "@/components/TeamCard";
 
-import { teamMembers } from "@/constants";
+import teamMembers from "@/constants/team";
 
 const teamPage = () => {
   return (

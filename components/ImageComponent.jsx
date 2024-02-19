@@ -6,8 +6,8 @@ const ImageComponent = ({ pic }) => {
       <Image
         src={`/images/Gallery/${pic}`}
         alt={pic}
-        width={300}
-        height={250}
+        width={720}
+        height={480}
         loading="lazy"
         quality={100}
         className="max-h-[800px] rounded-md"
