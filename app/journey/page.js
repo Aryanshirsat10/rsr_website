@@ -5,7 +5,6 @@ import { journeycard } from "@/constants";
 const journey = () => {
   return (
     <>
-      <Navbar />
       <div className="w-full h-80 overflow-visible py-32">
         <div className="justify-center items-center content-center px-5 flex flex-col gap-6">
           <h1 className="items-center content-center text-5xl font-bold ">

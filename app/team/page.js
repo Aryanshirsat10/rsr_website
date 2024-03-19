@@ -9,7 +9,6 @@ import teamMembers from "@/constants/team";
 const teamPage = () => {
   return (
     <>
-      <Navbar />
       <div className="mt-16 pt-10 flex flex-col flex-wrap h-full w-full items-center justify-center content-center scroll-smooth mx-auto lg:p-10 p-16 bg-black">
         <Tabs
           color="danger"

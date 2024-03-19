@@ -16,7 +16,7 @@ const Navbar = () => {
       to: "/sponsors",
     },
     {
-      name: "Fund US",
+      name: "Fund Us",
       to: "/fund",
     },
     {
@@ -38,7 +38,7 @@ const Navbar = () => {
             <img src="/images/logo-white.png" alt="" className="w-36" />
           </a>
         </div>
-        <div className="gap-7 px-5 mt-1 hidden md:flex">
+        <div className="gap-7 px-5 mt-1 hidden md:flex items-center">
           {menu.map((item, index) => {
             return (
               <a
@@ -50,6 +50,20 @@ const Navbar = () => {
               </a>
             );
           })}
+          <a href="https://kjsce.somaiya.edu/en">
+            <img
+              src="/images/somaiyaLogo1.jpg"
+              alt="Somaiya Trust"
+              className="w-40"
+            />
+          </a>
+          <a href="">
+            <img
+              src="/images/somaiyaLogo2.jpg"
+              alt="Somaiya Trust"
+              className="w-16"
+            />
+          </a>
         </div>
         <div className="md:hidden mt-6">
           <button onClick={toggleMenu}>

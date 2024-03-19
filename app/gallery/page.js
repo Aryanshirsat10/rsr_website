@@ -13,7 +13,6 @@ const galleryPage = async () => {
 
   return (
     <>
-      <Navbar />
       <div> Carousel </div>
       <div className="mt-16 pt-12 scroll-smooth p-10  columns-1 sm:columns-2 md:columns-3 lg:columns-4 space-y-4">
         {photos.map((pic, index) => {

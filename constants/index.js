@@ -324,4 +324,32 @@ const achievements = [
   },
 ];
 
-export { sponsors, journeycard, achievements };
+const achievements2 = [
+  {
+    rank: "AIR 2",
+    round: "OVERALL COMPETITION",
+    year: "2021-2022",
+  },
+  {
+    rank: "AIR 1",
+    round: "4 HOUR NIGHT ENDURANCE RACE",
+    year: "2021-2022",
+  },
+  {
+    rank: "AIR 3",
+    round: "FLAT DIRT RACE",
+    year: "2021-2022",
+  },
+  {
+    rank: "AIR 5",
+    round: "ARMAGEDDON RACE",
+    year: "2021-2022",
+  },
+  {
+    rank: "1st PLACE",
+    round: "DRAG RACE, MEGA ATV",
+    year: "2018-2019",
+  },
+];
+
+export { sponsors, journeycard, achievements, achievements2 };
