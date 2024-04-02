@@ -13,13 +13,14 @@ export const ParallaxScroll = ({ images, className }) => {
   const translateFirst = useTransform(scrollYProgress, [0, 1], [0, -400]);
   const translateSecond = useTransform(scrollYProgress, [0, 1], [0, 400]);
   const translateThird = useTransform(scrollYProgress, [0, 1], [0, -400]);
+  const translateFourth = useTransform(scrollYProgress, [0, 1], [0, 400]);
 
-  const third = Math.ceil(images.length / 3);
+  const fourth = Math.ceil(images.length / 4);
 
-  const firstPart = images.slice(0, third);
-  const secondPart = images.slice(third, 2 * third - 1);
-  const thirdPart = images.slice(2 * third - 1);
-  console.log(firstPart, secondPart, thirdPart);
+  const firstPart = images.slice(0, fourth);
+  const secondPart = images.slice(fourth, 2 * fourth - 1);
+  const thirdPart = images.slice(2 * fourth - 1, 3 * fourth - 1);
+  const fourthPart = images.slice(3 * fourth - 1);
 
   return (
     <div
@@ -30,7 +31,7 @@ export const ParallaxScroll = ({ images, className }) => {
       ref={gridRef}
     >
       <div
-        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-start mx-auto gap-10 py-40 px-20"
+        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-start mx-auto gap-10 py-40 px-10"
         ref={gridRef}
       >
         <div className="grid gap-10">
@@ -64,6 +65,20 @@ export const ParallaxScroll = ({ images, className }) => {
         <div className="grid gap-10">
           {thirdPart.map((el, idx) => (
             <motion.div style={{ y: translateThird }} key={"grid-3" + idx}>
+              <Image
+                src={el}
+                className="h-80 w-full object-cover object-center rounded-lg gap-10 !m-0 !p-0"
+                height="400"
+                width="600"
+                alt="Image"
+                loading="lazy"
+              />
+            </motion.div>
+          ))}
+        </div>
+        <div className="grid gap-10">
+          {fourthPart.map((el, idx) => (
+            <motion.div style={{ y: translateFourth }} key={"grid-4" + idx}>
               <Image
                 src={el}
                 className="h-80 w-full object-cover object-center rounded-lg gap-10 !m-0 !p-0"
