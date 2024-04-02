@@ -10,9 +10,9 @@ export const ParallaxScroll = ({ images, className }) => {
     offset: ["start start", "end start"],
   });
 
-  const translateFirst = useTransform(scrollYProgress, [0, 1], [0, -200]);
-  const translateSecond = useTransform(scrollYProgress, [0, 1], [0, 200]);
-  const translateThird = useTransform(scrollYProgress, [0, 1], [0, -200]);
+  const translateFirst = useTransform(scrollYProgress, [0, 1], [0, -300]);
+  const translateSecond = useTransform(scrollYProgress, [0, 1], [0, 300]);
+  const translateThird = useTransform(scrollYProgress, [0, 1], [0, -300]);
 
   const third = Math.ceil(images.length / 3);
 
