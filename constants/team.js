@@ -1,10 +1,11 @@
 const teamMembers = [
   {
     value: "2023-24",
+    link: "https://res.cloudinary.com/do2a6xog2/image/upload/v1712065740/rsr/teams/IMG_0629_pj51bp.jpg",
     members: [
       {
         role: "Captain",
-        name: "Prasad Joshi",
+        name: "",
         position: null,
       },
       {
@@ -211,6 +212,7 @@ const teamMembers = [
   },
   {
     value: "2022-23",
+    link: "https://res.cloudinary.com/do2a6xog2/image/upload/v1712073631/rsr/teams/Team_2022-23_pkiiof.jpg",
     members: [
       {
         role: "Captain",
@@ -421,6 +423,7 @@ const teamMembers = [
   },
   {
     value: "2021-22",
+    link: "https://res.cloudinary.com/do2a6xog2/image/upload/v1712073631/rsr/teams/Team_2021-22_mrf0va.jpg",
     members: [
       {
         role: "Captain",
@@ -626,6 +629,7 @@ const teamMembers = [
   },
   {
     value: "2020-21",
+    link: "https://res.cloudinary.com/do2a6xog2/image/upload/v1712073633/rsr/teams/Team_2020-21_mimlwf.jpg",
     members: [
       {
         role: "Captain",
@@ -846,6 +850,7 @@ const teamMembers = [
   },
   {
     value: "2019-20",
+    link: "https://res.cloudinary.com/do2a6xog2/image/upload/v1712073638/rsr/teams/Team_2019-20_k2gj6i.jpg",
     members: [
       {
         role: "Captain",
@@ -1056,6 +1061,7 @@ const teamMembers = [
   },
   {
     value: "2018-19",
+    link: "https://res.cloudinary.com/do2a6xog2/image/upload/v1712073675/rsr/teams/Team_2018-19_zkikds.jpg",
     members: [
       {
         role: "Captain",

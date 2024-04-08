@@ -162,23 +162,75 @@ const journeycard = [
   {
     title: "Heading",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquam nisl sit amet lacus volutpat, vitae commodo odio tincidunt.Suspendisse libero purus, tincidunt in massa vel, eleifend aliquet mi. Sed erat lorem, posuere quis dolor ullamcorper, posuere bibendum arcu. Donec lacinia rutrum nibh faucibus malesuada. Quisque nonaliquam nibh, quis laoreet magna. Morbi blandit ex sed lorem blanditinterdum.",
+    link: "https://res.cloudinary.com/do2a6xog2/image/upload/v1711952691/rsr/journey/20240112_115149_xpnqiw_jg3yvd.jpg",
+    year: "2023"
   },
   {
-    title: "Heading",
+    title: "Pratyush",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquam nisl sit amet lacus volutpat, vitae commodo odio tincidunt.Suspendisse libero purus, tincidunt in massa vel, eleifend aliquet mi. Sed erat lorem, posuere quis dolor ullamcorper, posuere bibendum arcu. Donec lacinia rutrum nibh faucibus malesuada. Quisque nonaliquam nibh, quis laoreet magna. Morbi blandit ex sed lorem blanditinterdum.",
+    link: "https://res.cloudinary.com/do2a6xog2/image/upload/v1711952633/rsr/journey/pratyush_gb8gbx.jpg",
+    year: "2022"
   },
   {
-    title: "Heading",
+    title: "Sharuya",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquam nisl sit amet lacus volutpat, vitae commodo odio tincidunt.Suspendisse libero purus, tincidunt in massa vel, eleifend aliquet mi. Sed erat lorem, posuere quis dolor ullamcorper, posuere bibendum arcu. Donec lacinia rutrum nibh faucibus malesuada. Quisque nonaliquam nibh, quis laoreet magna. Morbi blandit ex sed lorem blanditinterdum.",
+    link: "https://res.cloudinary.com/do2a6xog2/image/upload/v1711952626/rsr/journey/shaurya_uio9d9.jpg",
+    year: "2020"
   },
   {
-    title: "Heading",
+    title: "Tabeer",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquam nisl sit amet lacus volutpat, vitae commodo odio tincidunt.Suspendisse libero purus, tincidunt in massa vel, eleifend aliquet mi. Sed erat lorem, posuere quis dolor ullamcorper, posuere bibendum arcu. Donec lacinia rutrum nibh faucibus malesuada. Quisque nonaliquam nibh, quis laoreet magna. Morbi blandit ex sed lorem blanditinterdum.",
+    link: "https://res.cloudinary.com/do2a6xog2/image/upload/v1711952625/rsr/journey/tabeer_qewhc8.jpg",
+    year: "2019"
   },
   {
-    title: "Heading",
+    title: "Yudhaan 3.0",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquam nisl sit amet lacus volutpat, vitae commodo odio tincidunt.Suspendisse libero purus, tincidunt in massa vel, eleifend aliquet mi. Sed erat lorem, posuere quis dolor ullamcorper, posuere bibendum arcu. Donec lacinia rutrum nibh faucibus malesuada. Quisque nonaliquam nibh, quis laoreet magna. Morbi blandit ex sed lorem blanditinterdum.",
+    link: "https://res.cloudinary.com/do2a6xog2/image/upload/v1711952625/rsr/journey/yudhaan3_lwt21o.jpg",
+    year: "2018-19"
   },
+  {
+    title: "Yudhaan 2.0",
+    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquam nisl sit amet lacus volutpat, vitae commodo odio tincidunt.Suspendisse libero purus, tincidunt in massa vel, eleifend aliquet mi. Sed erat lorem, posuere quis dolor ullamcorper, posuere bibendum arcu. Donec lacinia rutrum nibh faucibus malesuada. Quisque nonaliquam nibh, quis laoreet magna. Morbi blandit ex sed lorem blanditinterdum.",
+    link: "https://res.cloudinary.com/do2a6xog2/image/upload/v1711952622/rsr/journey/yudhaan2_l1kw4q.jpg",
+    year: "2018"
+  },
+  {
+    title: "Yudhaan 1.0",
+    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquam nisl sit amet lacus volutpat, vitae commodo odio tincidunt.Suspendisse libero purus, tincidunt in massa vel, eleifend aliquet mi. Sed erat lorem, posuere quis dolor ullamcorper, posuere bibendum arcu. Donec lacinia rutrum nibh faucibus malesuada. Quisque nonaliquam nibh, quis laoreet magna. Morbi blandit ex sed lorem blanditinterdum.",
+    link: "https://res.cloudinary.com/do2a6xog2/image/upload/v1711952622/rsr/journey/yudhaan_i8dmn2.jpg",
+    year: "2017"
+  },
+  {
+    title: "Rudra III",
+    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquam nisl sit amet lacus volutpat, vitae commodo odio tincidunt.Suspendisse libero purus, tincidunt in massa vel, eleifend aliquet mi. Sed erat lorem, posuere quis dolor ullamcorper, posuere bibendum arcu. Donec lacinia rutrum nibh faucibus malesuada. Quisque nonaliquam nibh, quis laoreet magna. Morbi blandit ex sed lorem blanditinterdum.",
+    link: "https://res.cloudinary.com/do2a6xog2/image/upload/v1711952621/rsr/journey/raudr3_b7naza.jpg",
+    year: "2015"
+  },
+  {
+    title: "Rudra II",
+    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquam nisl sit amet lacus volutpat, vitae commodo odio tincidunt.Suspendisse libero purus, tincidunt in massa vel, eleifend aliquet mi. Sed erat lorem, posuere quis dolor ullamcorper, posuere bibendum arcu. Donec lacinia rutrum nibh faucibus malesuada. Quisque nonaliquam nibh, quis laoreet magna. Morbi blandit ex sed lorem blanditinterdum.",
+    link: "https://res.cloudinary.com/do2a6xog2/image/upload/v1711952620/rsr/journey/raudr2_egw20p.jpg",
+    year: "2014"
+  },
+  {
+    title: "Rudra",
+    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquam nisl sit amet lacus volutpat, vitae commodo odio tincidunt.Suspendisse libero purus, tincidunt in massa vel, eleifend aliquet mi. Sed erat lorem, posuere quis dolor ullamcorper, posuere bibendum arcu. Donec lacinia rutrum nibh faucibus malesuada. Quisque nonaliquam nibh, quis laoreet magna. Morbi blandit ex sed lorem blanditinterdum.",
+    link: "https://res.cloudinary.com/do2a6xog2/image/upload/v1711952621/rsr/journey/raudr_hqgaqv.jpg",
+    year: "2014"
+  },
+  {
+    title: "Blunderbuss",
+    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquam nisl sit amet lacus volutpat, vitae commodo odio tincidunt.Suspendisse libero purus, tincidunt in massa vel, eleifend aliquet mi. Sed erat lorem, posuere quis dolor ullamcorper, posuere bibendum arcu. Donec lacinia rutrum nibh faucibus malesuada. Quisque nonaliquam nibh, quis laoreet magna. Morbi blandit ex sed lorem blanditinterdum.",
+    link: "https://res.cloudinary.com/do2a6xog2/image/upload/v1711952619/rsr/journey/blunderbuss_omyyaw.jpg",
+    year: "2013"
+  },
+  {
+    title: "RSR 11-12",
+    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquam nisl sit amet lacus volutpat, vitae commodo odio tincidunt.Suspendisse libero purus, tincidunt in massa vel, eleifend aliquet mi. Sed erat lorem, posuere quis dolor ullamcorper, posuere bibendum arcu. Donec lacinia rutrum nibh faucibus malesuada. Quisque nonaliquam nibh, quis laoreet magna. Morbi blandit ex sed lorem blanditinterdum.",
+    link: "https://res.cloudinary.com/do2a6xog2/image/upload/v1711952619/rsr/journey/rsr11-12_x3b1dy.jpg",
+    year: "2012"
+  }
 ];
 
 const achievements = [
