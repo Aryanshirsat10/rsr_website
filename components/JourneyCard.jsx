@@ -3,7 +3,7 @@ import { motion, useAnimation, useScroll, useSpring } from "framer-motion";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-const JourneyCard = ({ index, title, para,link,year }) => {
+const JourneyCard = ({ index, title, para, link, year }) => {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -41,7 +41,7 @@ const JourneyCard = ({ index, title, para,link,year }) => {
   return (
     <div className="flex  flex-row min-h-min z-1 gap-4 justify-items-center lg:even:flex-row-reverse">
       <div className="hidden content-center items-center lg:flex flex-row gap-6 min-h-96 max-w-[610px] pb-32 min-w-[385px]">
-      {/* <h1 className="text-5xl font-bold text-gray-400 opacity-0">{title}</h1> */}
+        {/* <h1 className="text-5xl font-bold text-gray-400 opacity-0">{title}</h1> */}
       </div>
       <div className="content-start items-center justify-center flex h-min flex-col w-[100px]">
         <div className="flex items-center justify-center gap-2 h-16 w-16 z-10 bg-black">
@@ -53,7 +53,7 @@ const JourneyCard = ({ index, title, para,link,year }) => {
           </div>
         </div>
         <div className="w-1 h-[400px] bg-[#ffffff0d] z-0" ref={ref}>
-        {/* #673ae4 */}
+          {/* #673ae4 */}
           <motion.div
             className="bg-[#ac0000] w-full h-[400px] line"
             style={{ transformOrigin: "top", scaleY: scrollYProgress }}
@@ -72,7 +72,9 @@ const JourneyCard = ({ index, title, para,link,year }) => {
         </div>
         <div className="flex flex-col flex-start text-base text-justify ">
           {/* <p className="justify-start text-slate-300">{para}</p> */}
-          <span className="mb-2 absolute bottom-20 left-2 text-7xl font-semibold drop-shadow-lg ">{year}</span>
+          <span className="mb-2 absolute bottom-20 left-2 text-7xl font-semibold drop-shadow-lg ">
+            {year}
+          </span>
           <img src={link} className="w-96 object-cover"></img>
         </div>
       </div>

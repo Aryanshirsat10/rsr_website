@@ -14,20 +14,20 @@ const Footer = () => {
         </div>
         <div className="flex items-center gap-10">
           <span className="ml-4 text-lg">Follow Us</span>
-          <div className="flex items-center justify-center gap-5">
-            <a href="" className="cursor-pointer">
+          <div className="flex items-center justify-center gap-6">
+            <a href="/" className="cursor-pointer">
               <InstagramIcon className="text-white h-8 w-8" />
             </a>
-            <a href="" className="cursor-pointer">
+            <a href="/" className="cursor-pointer">
               <LinkedinIcon className="text-white h-8 w-8" />
             </a>
-            <a href="" className="cursor-pointer">
+            <a href="/" className="cursor-pointer">
               <TwitterIcon className="text-white h-8 w-8" />
             </a>
-            <a href="" className="cursor-pointer">
+            <a href="/" className="cursor-pointer">
               <YoutubeIcon className="text-white h-8 w-8" />
             </a>
-            <a href="" className="cursor-pointer">
+            <a href="/" className="cursor-pointer">
               <FacebookIcon className="text-white h-8 w-8" />
             </a>
           </div>
