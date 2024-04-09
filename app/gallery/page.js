@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
 import { ParallaxScroll } from "@/components/ui/parallax-scroll";
-// import galleryImages from "@/constants/galleryImages";
-import galleryImagesAll from "@/constants/galleryImagesAll";
+import galleryImages from "@/constants/galleryImages";
+// import galleryImagesAll from "@/constants/galleryImagesAll";
 
 const galleryPage = () => {
   const filtersList = [
@@ -13,6 +13,14 @@ const galleryPage = () => {
     "Teams",
   ];
   const [selectedFilter, setSelectedFilter] = useState("All");
+
+  const images = galleryImages.flatMap((item) => item.images);
+
+  const filteredImages =
+    selectedFilter === "All"
+      ? images
+      : galleryImages.find((category) => category.title === selectedFilter)
+          ?.images || [];
 
   return (
     <section>
@@ -42,7 +50,7 @@ const galleryPage = () => {
         })}
       </div>
       <div>
-        <ParallaxScroll images={galleryImagesAll} />
+        <ParallaxScroll images={filteredImages} />
       </div>
     </section>
   );
