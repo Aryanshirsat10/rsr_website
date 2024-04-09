@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className="bg-black text-white py-8">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
         <div className="text-center">
           <div className="h-2/5 flex items-center justify-center">
             <img
@@ -12,7 +12,7 @@ const Footer = () => {
           </div>
           <div className="text-sm mt-2">© Redshift Racing India</div>
         </div>
-        <div className="flex items-center gap-10">
+        <div className="flex flex-col md:flex-row items-center gap-10">
           <span className="ml-4 text-lg">Follow Us</span>
           <div className="flex items-center justify-center gap-6">
             <a href="/" className="cursor-pointer">

@@ -79,7 +79,7 @@ const sponsors = [
     logo: "https://res.cloudinary.com/dma4lhef7/image/upload/v1712650816/website-images/sponsors/eternityr-logo-1_hsjsvx.png",
     name: "Eternity",
     intro: "",
-    link: "",
+    link: "https://eternitygolden.com/",
   },
   {
     logo: "https://res.cloudinary.com/dma4lhef7/image/upload/v1712650774/website-images/sponsors/CMM_nrlcdz.png",
