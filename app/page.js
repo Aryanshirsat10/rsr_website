@@ -18,7 +18,7 @@ export default function Home() {
      }}>
         {/* <img src={backgroundImageLink} alt="Hero Image" className="absolute inset-0 w-full h-96 object-cover"/> */}
         <div className="container px-4 md:px-6">
-          <div className="flex flex-col items-center space-y-4 text-center md:pt-32 lg:pt-40 xl:pt-60">
+          <div className="flex flex-col items-center space-y-4 text-center pt-72 md:pt-64 lg:pt-80 xl:pt-64 flex-grow">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none text-shadow" style={{
                 textShadow: '2px 2px 8px rgba(0, 0, 0, 7.5)'
@@ -41,7 +41,7 @@ export default function Home() {
         </div>
       </div>
     </section>
-    <section className="w-full py-12 md:py-24 lg:py-28">
+    <section className="w-full py-12 md:py-24 lg:py-28 flex justify-center">
       <div className="relative overflow-hidden">
         <div className="absolute inset-0" />
         <div className="container flex flex-col items-center justify-center px-4 space-y-4 text-center md:px-6">
@@ -81,7 +81,8 @@ Continuous Innovation, improvisation and optimization to achieve our goals throu
         </div>
       </div>
     </section>
-    <section className="w-full py-12">
+    <section className="w-full py-12 flex justify-center items-center">
+      <div>
       <div className="container px-4 md:px-6">
         <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
           <img
@@ -111,22 +112,74 @@ Continuous Innovation, improvisation and optimization to achieve our goals throu
           </div>
         </div>
       </div>
+      </div>
     </section>
     {/* <section className="w-full py-12">
-      <div className="flex flex-row">
-        <div className="flex">
-
+      <div className="flex flex-row flex-wrap w-full items-center justify-center">
+        <div className="flex flex-col">
+          <h2>headings</h2>
+          <p>descriptions</p>
         </div>
-        <div className="flex">
+        <div className="flex flex-col">
+          <h2>headings</h2>
+          <p>descriptions</p>
+        </div>
+        <div className="flex flex-col">
+          <h2>headings</h2>
+          <p>descriptions</p>
+        </div>
+      </div>
+      <div className="flex flex-row flex-wrap w-full items-center justify-center">
+      <img
+              alt="Car model"
+              className="flex aspect-[2/1] object-cover object-center"
+              height="200"
+              src={homeimg[2].link}
+            />
+        <div className="flex flex-col">
         <img
-          alt="Car model"
-          className="aspect-[2/1] object-cover object-center"
-          height="200"
-          src={homeimg[3].link}
+              alt="Car model"
+              className="flex aspect-[2/1] object-cover object-center"
+              height="200"
+              src={homeimg[2].link}
+            />
+        <img
+              alt="Car model"
+              className="flex aspect-[2/1] object-cover object-center"
+              height="200"
+              src={homeimg[2].link}
             />
         </div>
       </div>
     </section> */}
+    <section className="w-full py-12 justify-center hidden lg:flex">
+      <div className="">
+      <div className="container px-4 md:px-6 relative">
+        <div className="grid gap-2 lg:grid-cols-[1fr_400px] xl:grid-cols-[1fr_600px]">
+          <img
+            alt="Hero"
+            className="mx-auto aspect-video overflow-hidden object-bottom sm:w-full lg:order-last lg:aspect-square"
+            src={homeimg[4].link}
+            width="550"
+          />
+          <div className="flex flex-col justify-center space-y-4 items-end pr-48">
+            <div className="space-y-2 w-72 flex flex-row gap-3">
+              <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-8xl/none">"</h1>
+              <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-5xl/none">
+                Manufacturing vehicles 
+                for all terrain is much 
+                cheaper than building 
+                roads for rough terrains."
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div className="absolute bg-white flex top-[85%] left-[39%] w-60 items-center justify-center">
+            <h3 className="text-xl text-black">Redshift Racing KJSCE</h3>
+        </div>
+      </div>
+    </div>
+    </section>
     {/* <Footer /> */}
     </div>
  );

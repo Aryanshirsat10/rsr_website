@@ -14,6 +14,10 @@ const homeimg = [
     {
         title: "About1",
         link : "https://res.cloudinary.com/dma4lhef7/image/upload/v1712645882/website-images/edited%20photos/astra_2_we9dpx.jpg"
+    },
+    {
+        title: "section",
+        link : "https://res.cloudinary.com/dma4lhef7/image/upload/v1712669876/website-images/edited%20photos/WhatsApp_Image_2024-04-09_at_19.06.24_rukix5.jpg"
     }
 ];
 export default homeimg;
