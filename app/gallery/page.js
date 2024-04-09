@@ -9,8 +9,9 @@ import galleryImagesAll from "@/constants/galleryImagesAll";
 const galleryPage = () => {
   return (
     <>
-      <div> Carousel </div>
-      <ParallaxScroll images={galleryImagesAll} />
+      <div>
+        <ParallaxScroll images={galleryImagesAll} />
+      </div>
     </>
   );
 };

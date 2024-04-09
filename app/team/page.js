@@ -20,7 +20,13 @@ const teamPage = () => {
           {teamMembers.map((item, index) => {
             return (
               <Tab key={index} title={item.value}>
-                <div className="w-full items-center justify-center flex object-cover"><img src={item.link} className="w-[60%] p-2 mx-4 h-1/5"/></div>
+                <div className="w-full items-center justify-center flex">
+                  <img
+                    src={item.link}
+                    loading="lazy"
+                    className="w-2/3 p-2 mx-4 object-cover h-[500px]"
+                  />
+                </div>
                 <div className="rounded-none border-none outline-none text-white bg-black flex flex-row w-full items-center justify-center content-center flex-wrap p-10">
                   {item.members.map((member, ind) => {
                     return (

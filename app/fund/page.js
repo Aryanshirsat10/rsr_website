@@ -15,6 +15,7 @@ const Fund = () => {
               src="/images/Budget_Roadmap.png"
               alt="Budget Roadmap"
               className="rounded-lg"
+              loading="lazy"
             />
           </div>
         </div>
