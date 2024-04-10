@@ -1,6 +1,6 @@
 import React from "react";
 import homeimg from "@/constants/homepageimages";
-import Link from "next/link"; // Assuming you're using Next.js for routing
+import Link from "next/link"; 
 
 export default function Home() {
   const backgroundImageLink = homeimg[0].link;
@@ -139,7 +139,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="w-full py-12 md:py-24 lg:py-28 flex justify-center">
+      <section className="w-full py-12 md:py-24 lg:py-28 flex justify-center flex-col">
         <div className="relative overflow-hidden">
           <div className="absolute inset-0" />
           <div className="container flex flex-col items-center justify-center px-4 space-y-4 text-center md:px-6">
@@ -158,7 +158,7 @@ export default function Home() {
                 alt="Car model"
                 className="aspect-[2/1] object-cover object-center"
                 height="200"
-                src={homeimg[2].link}
+                src="https://res.cloudinary.com/dma4lhef7/image/upload/v1712764930/website-images/announcements/patvin_title_sponsor_deskvz.png"
               />
               <div className="flex-1 p-4 grid gap-1">
                 <h5 className="text-sm text-gray-50 dark:text-gray-400">
@@ -171,7 +171,7 @@ export default function Home() {
                 alt="Car model"
                 className="aspect-[2/1] object-cover object-center"
                 height="200"
-                src={homeimg[3].link}
+                src="https://res.cloudinary.com/dma4lhef7/image/upload/v1712764918/website-images/announcements/Rajesh_Engineering_Works_zdqyyj.png"
               />
               <div className="flex-1 p-4 grid gap-1">
                 <h5 className="text-sm text-gray-50 dark:text-gray-400">
@@ -185,7 +185,7 @@ export default function Home() {
                 alt="Car model"
                 className="aspect-[2/1] object-cover object-center"
                 height="200"
-                src={homeimg[3].link}
+                src="https://res.cloudinary.com/dma4lhef7/image/upload/v1712764922/website-images/announcements/Hardwin_Fasteners_xfv7ij.png"
               />
               <div className="flex-1 p-4 grid gap-1">
                 <h5 className="text-sm text-gray-50 dark:text-gray-400">
@@ -195,14 +195,14 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-2 min-[400px]:flex-row pt-8 w-full justify-center">
-            <Link
-              className="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
-              href="/announce"
-            >
-              View more
-            </Link>
-          </div>
+        </div>
+        <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center pt-10">
+          <Link
+            className="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+            href="/announce"
+          >
+            View announce
+          </Link>
         </div>
       </section>
       <section className="w-full py-12 justify-center hidden lg:flex">
@@ -263,9 +263,8 @@ export default function Home() {
         <div className="w-full px-20">
           <iframe
             src="https://maps.google.com/maps?q=redshift%20racing%20india&t=&z=17&ie=UTF8&iwloc=&output=embed"
-            frameBorder="0"
             className="w-full h-[500px]"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
         </div>
       </section>

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Image from 'next/image';
 const cn = (...classes) => classes.filter(Boolean).join(' ');
 
 export const BentoGrid = ({
@@ -24,6 +24,7 @@ export const BentoGridItem = ({
   description,
   header,
   icon,
+  imageSrc,
 }) => {
   return (
     <div
