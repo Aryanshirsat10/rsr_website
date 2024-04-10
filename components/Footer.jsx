@@ -15,19 +15,19 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center gap-10">
           <span className="ml-4 text-lg">Follow Us</span>
           <div className="flex items-center justify-center gap-6">
-            <a href="/" className="cursor-pointer">
+            <a href="https://www.instagram.com/redshift_racing/" className="cursor-pointer">
               <InstagramIcon className="text-white h-8 w-8" />
             </a>
-            <a href="/" className="cursor-pointer">
+            <a href="https://www.linkedin.com/company/redshift-racing-india/?originalSubdomain=in" className="cursor-pointer">
               <LinkedinIcon className="text-white h-8 w-8" />
             </a>
-            <a href="/" className="cursor-pointer">
+            <a href="https://twitter.com/redshiftracing" className="cursor-pointer">
               <TwitterIcon className="text-white h-8 w-8" />
             </a>
             <a href="/" className="cursor-pointer">
               <YoutubeIcon className="text-white h-8 w-8" />
             </a>
-            <a href="/" className="cursor-pointer">
+            <a href="https://www.facebook.com/redshiftracing.kjsce" className="cursor-pointer">
               <FacebookIcon className="text-white h-8 w-8" />
             </a>
           </div>

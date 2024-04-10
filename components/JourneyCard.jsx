@@ -68,11 +68,11 @@ const JourneyCard = ({ index, title, para, link, year }) => {
       >
         <div className="flex flex-col flex-start gap-1 justify-center relative">
           <h1>&nbsp;</h1>
-          <h1 className="text-5xl font-bold">{title}</h1>
+          <h1 className="text-5xl font-bold text-white">{title}</h1>
         </div>
         <div className="flex flex-col flex-start text-base text-justify ">
           {/* <p className="justify-start text-slate-300">{para}</p> */}
-          <span className="mb-2 absolute bottom-20 left-2 text-7xl font-semibold drop-shadow-lg ">
+          <span className="mb-2 absolute bottom-20 left-2 text-7xl font-semibold drop-shadow-lg text-white">
             {year}
           </span>
           <img src={link} className="w-96 object-cover"></img>

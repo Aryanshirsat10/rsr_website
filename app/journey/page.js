@@ -6,7 +6,7 @@ const journey = () => {
   return (
     <>
       <SparklesPreview/>
-      <div className="w-full flex flex-col content-center items-center overflow-hidden py-16 px-5">
+      <div className="w-full flex flex-col content-center items-center overflow-hidden py-16 px-5 bg-black">
         {journeycard.map((journey, index) => (
           <JourneyCard key={`journey-${index}`} index={index} {...journey} />
         ))}

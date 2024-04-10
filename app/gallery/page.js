@@ -23,7 +23,7 @@ const galleryPage = () => {
           ?.images || [];
 
   return (
-    <section>
+    <section className="bg-black">
       <div className="flex justify-center items-center">
         <video
           src="https://res.cloudinary.com/dma4lhef7/video/upload/v1712559586/website-images/Day-4_endurance_video_kvhri3.mp4"
@@ -36,7 +36,7 @@ const galleryPage = () => {
         {filtersList.map((filter, index) => {
           return (
             <button
-              className={`border-2 border-red-500 text-xl px-4 py-2 rounded-lg cursor-pointer ${
+              className={`border-2 border-red-500 text-xl px-4 py-2 rounded-lg cursor-pointer text-white ${
                 selectedFilter == filter
                   ? "bg-red-500 text-white"
                   : "bg-transparent"

@@ -6,10 +6,10 @@ export function SparklesPreview() {
   return (
     <div className="h-[40rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
       <div className="w-full h-80 overflow-visible pt-32 flex flex-col items-center justify-center gap-y-3">
-          <h1 className="items-center content-center text-5xl font-bold">
+          <h1 className="items-center content-center text-5xl font-bold text-white">
             Journey So Far
           </h1>
-          <h4 className="text-3xl font-semibold">MILESTONES</h4>
+          <h4 className="text-3xl font-semibold text-white">MILESTONES</h4>
       </div>
       <div className="w-[40rem] h-40 relative">
         {/* Gradients */}

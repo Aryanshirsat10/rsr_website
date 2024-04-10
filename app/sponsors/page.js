@@ -25,7 +25,7 @@ const Sponsorcard = ({ logo, name, intro, link }) => {
 const sponsorspage = () => {
   return (
     <>
-      <div className="mt-16 pt-12 flex flex-row flex-wrap gap-10 h-full items-center justify-center content-center scroll-smooth">
+      <div className="mt-16 pt-12 flex flex-row flex-wrap gap-10 h-full items-center justify-center content-center scroll-smooth bg-black">
         {sponsors.map((sponsor, index) => (
           <Sponsorcard key={`sponsor-${index}`} index={index} {...sponsor} />
         ))}

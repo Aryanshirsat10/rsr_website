@@ -7,7 +7,7 @@ export default function Home() {
  const backgroundImageLink = homeimg[0].link;
 
  return (
-  <div className="w-full">
+  <div className="w-full bg-black">
     <section className="flex flex-col h-screen">
       <div className="w-full py-12 md:py-24 lg:py-32 xl:py-48 relative h-full" 
       style={{ 
@@ -20,7 +20,7 @@ export default function Home() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center space-y-4 text-center pt-72 md:pt-64 lg:pt-80 xl:pt-64 flex-grow">
             <div className="space-y-2">
-              <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none text-shadow" style={{
+              <h1 className="text-3xl font-bold tracking-tighter text-white sm:text-4xl md:text-5xl lg:text-6xl/none text-shadow" style={{
                 textShadow: '2px 2px 8px rgba(0, 0, 0, 7.5)'
               }}>
                 All-Terrain Adventure
@@ -46,7 +46,7 @@ export default function Home() {
         <div className="absolute inset-0" />
         <div className="container flex flex-col items-center justify-center px-4 space-y-4 text-center md:px-6">
           <div className="space-y-2 pb-12">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-7xl/none text-shadow" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'}}>About Us</h2>
+            <h2 className="text-3xl text-white font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-7xl/none text-shadow" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'}}>About Us</h2>
           </div>
         </div>
         <div className="grid max-w-6xl grid-cols-1 items-start justify-center px-4 mx-auto gap-6 sm:grid-cols-2 md:px-6 lg:grid-cols-2">
@@ -94,7 +94,7 @@ Continuous Innovation, improvisation and optimization to achieve our goals throu
           />
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2">
-              <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
+              <h1 className="text-3xl text-white font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
                 See Our Racing Journey
               </h1>
               <p className="max-w-[600px] text-gray-400 md:text-xl dark:text-gray-400 text-justify">
@@ -114,36 +114,61 @@ Continuous Innovation, improvisation and optimization to achieve our goals throu
       </div>
       </div>
     </section>
-    <section className="flex flex-col items-center w-full justify-center py-14 pb-16">
-    <h2 className="text-5xl font-bold pb-8">Latest News</h2>
-      <div className="flex md:flex-cols-3 w-full gap-6 items-center justify-center">
-      <div className="p-3 border border-gray-500 rounded-xl shadow-xl shadow-slate-800 lg:hover:scale-105 duration-500">
-        <div className="rounded-lg p-2">
-          <img alt="Image" className="aspect-video" height="225" src="/placeholder.svg" width="400" />
+    <section className="w-full py-12 md:py-24 lg:py-28 flex justify-center">
+      <div className="relative overflow-hidden">
+        <div className="absolute inset-0" />
+        <div className="container flex flex-col items-center justify-center px-4 space-y-4 text-center md:px-6">
+          <div className="space-y-2 pb-12">
+            <h3 className="text-3xl text-white font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-7xl/none text-shadow" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'}}>Latest News</h3>
+          </div>
         </div>
-        <div className="space-y-2 p-2 pt-4">
-          <h3 className="text-lg font-bold leading-none">Getting Started with Shadcn</h3>
-          <p className="text-sm leading-none text-secondary">Learn how to use Shadcn in your next project.</p>
+        <div className="grid max-w-7xl grid-cols-1 items-start justify-center px-4 mx-auto gap-6 sm:grid-cols-2 md:px-6 lg:grid-cols-3">
+          <div className="flex flex-col rounded-lg border border-gray-900 bg-gray-850 overflow-hidden shadow-xl dark:border-gray-800 dark:bg-gray-950">
+            <img
+              alt="Car model"
+              className="aspect-[2/1] object-cover object-center"
+              height="200"
+              src={homeimg[2].link}
+            />
+            <div className="flex-1 p-4 grid gap-1">
+              <h5 className="text-sm text-gray-50 dark:text-gray-400">PATVIN Engineering joins RedShift as it's Title Sponsor</h5>
+            </div>
+          </div>
+          <div className="flex flex-col rounded-lg border border-gray-900 bg-gray-850 overflow-hidden shadow-xl dark:border-gray-800 dark:bg-gray-950">
+            <img
+              alt="Car model"
+              className="aspect-[2/1] object-cover object-center"
+              height="200"
+              src={homeimg[3].link}
+            />
+            <div className="flex-1 p-4 grid gap-1">
+              <h5 className="text-sm text-gray-50 dark:text-gray-400">
+              RedShift Racing India is thankful to RAJESH ENGINEERING for their significant support
+              </h5>
+            </div>
+          </div>
+          <div className="flex flex-col rounded-lg border border-gray-900 bg-gray-850 overflow-hidden shadow-xl dark:border-gray-800 dark:bg-gray-950">
+            <img
+              alt="Car model"
+              className="aspect-[2/1] object-cover object-center"
+              height="200"
+              src={homeimg[3].link}
+            />
+            <div className="flex-1 p-4 grid gap-1">
+              <h5 className="text-sm text-gray-50 dark:text-gray-400">
+              RedShift Racing India is thankful to HARDWIN FASTENERS for their continuous support 
+              </h5>
+            </div>
+          </div>
         </div>
-      </div>
-      <div className="p-3 border border-gray-500 rounded-xl shadow-xl shadow-slate-800 lg:hover:scale-105 duration-500">
-        <div className="rounded-lg p-2">
-          <img alt="Image" className="aspect-video" height="225" src="/placeholder.svg" width="400" />
+        <div className="flex flex-col gap-2 min-[400px]:flex-row pt-8 w-full justify-center">
+          <Link
+            className="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+            href="/announce"
+          >
+            View more
+          </Link>
         </div>
-        <div className="space-y-2 p-2 pt-4">
-          <h3 className="text-lg font-bold leading-none">The Future of Web Development</h3>
-          <p className="text-sm leading-none text-secondary">Exploring the latest trends and technologies.</p>
-        </div>
-      </div>
-      <div className="p-3 border border-gray-500 rounded-xl shadow-xl shadow-slate-800 lg:hover:scale-105 duration-500">
-        <div className="rounded-lg p-2">
-          <img alt="Image" className="aspect-video" height="225" src="/placeholder.svg" width="400" />
-        </div>
-        <div className="space-y-2 p-2 pt-4">
-          <h3 className="text-lg font-bold leading-none">Mastering Tailwind CSS</h3>
-          <p className="text-sm leading-none text-secondary">Tips and tricks for optimizing your workflow.</p>
-        </div>
-      </div>
       </div>
     </section>
     <section className="w-full py-12 justify-center hidden lg:flex">
@@ -158,8 +183,8 @@ Continuous Innovation, improvisation and optimization to achieve our goals throu
           />
           <div className="flex flex-col justify-center space-y-4 items-end pr-48">
             <div className="space-y-2 w-72 flex flex-row gap-3">
-              <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-8xl/none">"</h1>
-              <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-5xl/none">
+              <h1 className="text-3xl text-white font-bold tracking-tighter sm:text-5xl xl:text-8xl/none">"</h1>
+              <h1 className="text-3xl text-white font-bold tracking-tighter sm:text-5xl xl:text-5xl/none">
                 Manufacturing vehicles 
                 for all terrain is much 
                 cheaper than building 
