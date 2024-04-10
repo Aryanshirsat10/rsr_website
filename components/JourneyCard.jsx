@@ -64,11 +64,11 @@ const JourneyCard = ({ index, title, para, link, year }) => {
       </div>
       <div
         id={`heading${index}`}
-        className="flex flex-start flex-col h-min content-center pb-32 gap-6 max-w-[385px] opacity-0"
+        className="flex flex-start flex-col h-min content-center pb-32 max-w-[385px] opacity-0"
       >
         <div className="flex flex-col flex-start gap-1 justify-center relative">
           <h1>&nbsp;</h1>
-          <h1 className="text-3xl font-bold">{title}</h1>
+          <h1 className="text-5xl font-bold">{title}</h1>
         </div>
         <div className="flex flex-col flex-start text-base text-justify ">
           {/* <p className="justify-start text-slate-300">{para}</p> */}

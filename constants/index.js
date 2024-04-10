@@ -1,6 +1,6 @@
 const journeycard = [
   {
-    title: "Heading",
+    title: "Astra",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquam nisl sit amet lacus volutpat, vitae commodo odio tincidunt.Suspendisse libero purus, tincidunt in massa vel, eleifend aliquet mi. Sed erat lorem, posuere quis dolor ullamcorper, posuere bibendum arcu. Donec lacinia rutrum nibh faucibus malesuada. Quisque nonaliquam nibh, quis laoreet magna. Morbi blandit ex sed lorem blanditinterdum.",
     link: "https://res.cloudinary.com/do2a6xog2/image/upload/v1711952691/rsr/journey/20240112_115149_xpnqiw_jg3yvd.jpg",
     year: "2023",
