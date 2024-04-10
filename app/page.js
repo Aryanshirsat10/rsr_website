@@ -263,7 +263,7 @@ export default function Home() {
         <div className="w-full px-20">
           <iframe
             src="https://maps.google.com/maps?q=redshift%20racing%20india&t=&z=17&ie=UTF8&iwloc=&output=embed"
-            frameborder="0"
+            frameBorder="0"
             className="w-full h-[500px]"
             allowfullscreen
           ></iframe>
