@@ -114,51 +114,45 @@ Continuous Innovation, improvisation and optimization to achieve our goals throu
       </div>
       </div>
     </section>
-    {/* <section className="w-full py-12">
-      <div className="flex flex-row flex-wrap w-full items-center justify-center">
-        <div className="flex flex-col">
-          <h2>headings</h2>
-          <p>descriptions</p>
+    <section className="flex flex-col items-center w-full justify-center py-14 pb-16">
+    <h2 className="text-5xl font-bold pb-8">Latest News</h2>
+      <div className="flex md:flex-cols-3 w-full gap-6 items-center justify-center">
+      <div className="p-3 border border-gray-500 rounded-xl shadow-xl shadow-slate-800 lg:hover:scale-105 duration-500">
+        <div className="rounded-lg p-2">
+          <img alt="Image" className="aspect-video" height="225" src="/placeholder.svg" width="400" />
         </div>
-        <div className="flex flex-col">
-          <h2>headings</h2>
-          <p>descriptions</p>
-        </div>
-        <div className="flex flex-col">
-          <h2>headings</h2>
-          <p>descriptions</p>
+        <div className="space-y-2 p-2 pt-4">
+          <h3 className="text-lg font-bold leading-none">Getting Started with Shadcn</h3>
+          <p className="text-sm leading-none text-secondary">Learn how to use Shadcn in your next project.</p>
         </div>
       </div>
-      <div className="flex flex-row flex-wrap w-full items-center justify-center">
-      <img
-              alt="Car model"
-              className="flex aspect-[2/1] object-cover object-center"
-              height="200"
-              src={homeimg[2].link}
-            />
-        <div className="flex flex-col">
-        <img
-              alt="Car model"
-              className="flex aspect-[2/1] object-cover object-center"
-              height="200"
-              src={homeimg[2].link}
-            />
-        <img
-              alt="Car model"
-              className="flex aspect-[2/1] object-cover object-center"
-              height="200"
-              src={homeimg[2].link}
-            />
+      <div className="p-3 border border-gray-500 rounded-xl shadow-xl shadow-slate-800 lg:hover:scale-105 duration-500">
+        <div className="rounded-lg p-2">
+          <img alt="Image" className="aspect-video" height="225" src="/placeholder.svg" width="400" />
+        </div>
+        <div className="space-y-2 p-2 pt-4">
+          <h3 className="text-lg font-bold leading-none">The Future of Web Development</h3>
+          <p className="text-sm leading-none text-secondary">Exploring the latest trends and technologies.</p>
         </div>
       </div>
-    </section> */}
+      <div className="p-3 border border-gray-500 rounded-xl shadow-xl shadow-slate-800 lg:hover:scale-105 duration-500">
+        <div className="rounded-lg p-2">
+          <img alt="Image" className="aspect-video" height="225" src="/placeholder.svg" width="400" />
+        </div>
+        <div className="space-y-2 p-2 pt-4">
+          <h3 className="text-lg font-bold leading-none">Mastering Tailwind CSS</h3>
+          <p className="text-sm leading-none text-secondary">Tips and tricks for optimizing your workflow.</p>
+        </div>
+      </div>
+      </div>
+    </section>
     <section className="w-full py-12 justify-center hidden lg:flex">
       <div className="">
       <div className="container px-4 md:px-6 relative">
         <div className="grid gap-2 lg:grid-cols-[1fr_400px] xl:grid-cols-[1fr_600px]">
           <img
             alt="Hero"
-            className="mx-auto aspect-video overflow-hidden object-bottom sm:w-full lg:order-last lg:aspect-square"
+            className="mx-auto aspect-video overflow-hidden rounded-lg object-bottom sm:w-full lg:order-last lg:aspect-square"
             src={homeimg[4].link}
             width="550"
           />
@@ -180,7 +174,6 @@ Continuous Innovation, improvisation and optimization to achieve our goals throu
       </div>
     </div>
     </section>
-    {/* <Footer /> */}
     </div>
  );
 }
