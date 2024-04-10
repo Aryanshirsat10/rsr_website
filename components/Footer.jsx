@@ -15,19 +15,29 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center gap-10">
           <span className="ml-4 text-lg">Follow Us</span>
           <div className="flex items-center justify-center gap-6">
-            <a href="https://www.instagram.com/redshift_racing/" className="cursor-pointer">
+            <a
+              href="https://www.instagram.com/redshift_racing/"
+              className="cursor-pointer"
+            >
               <InstagramIcon className="text-white h-8 w-8" />
             </a>
-            <a href="https://www.linkedin.com/company/redshift-racing-india/?originalSubdomain=in" className="cursor-pointer">
+            <a
+              href="https://www.linkedin.com/company/redshift-racing-india/"
+              className="cursor-pointer"
+            >
               <LinkedinIcon className="text-white h-8 w-8" />
             </a>
-            <a href="https://twitter.com/redshiftracing" className="cursor-pointer">
+            <a
+              href="https://twitter.com/redshiftracing"
+              className="cursor-pointer"
+            >
               <TwitterIcon className="text-white h-8 w-8" />
             </a>
-            <a href="/" className="cursor-pointer">
-              <YoutubeIcon className="text-white h-8 w-8" />
-            </a>
-            <a href="https://www.facebook.com/redshiftracing.kjsce" className="cursor-pointer">
+
+            <a
+              href="https://www.facebook.com/redshiftracing.kjsce"
+              className="cursor-pointer"
+            >
               <FacebookIcon className="text-white h-8 w-8" />
             </a>
           </div>
@@ -100,25 +110,6 @@ function LinkedinIcon(props) {
   );
 }
 
-function StarIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-    </svg>
-  );
-}
-
 function TwitterIcon(props) {
   return (
     <svg
@@ -134,26 +125,6 @@ function TwitterIcon(props) {
       strokeLinejoin="round"
     >
       <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
-    </svg>
-  );
-}
-
-function YoutubeIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" />
-      <path d="m10 15 5-3-5-3z" />
     </svg>
   );
 }
