@@ -19,7 +19,7 @@ export default function Home() {
         >
           {/* <img src={backgroundImageLink} alt="Hero Image" className="absolute inset-0 w-full h-96 object-cover"/> */}
           <div className="container px-4 md:px-6">
-            <div className="flex flex-col items-center space-y-4 text-center pt-72 md:pt-64 lg:pt-80 xl:pt-64 flex-grow">
+            <div className="flex flex-col items-center space-y-4 text-center pt-72 md:pt-64 lg:pt-80 xl:pt-64 min-[2560px]:pt-[60%] min-[2560px]:pl-[50%]">
               <div className="space-y-2">
                 <h1
                   className="text-3xl font-bold tracking-tighter text-white sm:text-4xl md:text-5xl lg:text-6xl/none text-shadow"
@@ -139,7 +139,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="w-full py-12 md:py-24 lg:py-28 flex justify-center flex-col">
+      <section className="w-full py-12 md:py-24 lg:py-28 flex justify-center flex-col items-center">
         <div className="relative overflow-hidden">
           <div className="absolute inset-0" />
           <div className="container flex flex-col items-center justify-center px-4 space-y-4 text-center md:px-6">
@@ -196,9 +196,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center pt-10">
+        <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center items-center pt-10">
           <Link
-            className="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+            className="inline-flex w-56 h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
             href="/announce"
           >
             View announce
