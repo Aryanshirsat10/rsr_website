@@ -23,6 +23,11 @@ const Navbar = () => {
       name: "Fund Us",
       to: "/fund",
     },
+    {
+      name: "Contact",
+      to: "/#contact",
+      className: "hidden xl:flex",
+    },
   ];
 
   const [showMenu, setShowMenu] = useState(false);
@@ -40,11 +45,12 @@ const Navbar = () => {
         </div>
         <div className="gap-7 px-5 mt-1 hidden md:flex items-center">
           {menu.map((item, index) => {
+            const itemClass = item.className ? item.className : "";
             return (
               <a
                 href={item.to}
                 key={index}
-                className="text-white hover:text-mainRed text-lg font-normal cursor-pointer px-1 transition-all duration-300 ease-in-out"
+                className={`text-white hover:text-mainRed text-lg font-normal cursor-pointer px-1 transition-all duration-300 ease-in-out ${itemClass}`}
               >
                 {item.name}
               </a>
