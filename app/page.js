@@ -222,7 +222,7 @@ export default function Home() {
                   </h1>
                   <h1 className="text-3xl text-white font-bold tracking-tighter sm:text-5xl xl:text-5xl/none">
                     Manufacturing vehicles for all terrain is much cheaper than
-                    building roads for rough terrains."
+                    building roads for rough terrains.&quot;
                   </h1>
                 </div>
               </div>
