@@ -23,10 +23,6 @@ const Navbar = () => {
       name: "Fund Us",
       to: "/fund",
     },
-    {
-      name: "Contact",
-      to: "/#contact",
-    },
   ];
 
   const [showMenu, setShowMenu] = useState(false);
@@ -48,26 +44,28 @@ const Navbar = () => {
               <a
                 href={item.to}
                 key={index}
-                className="text-white hover:text-mainRed text-xl font-normal cursor-pointer px-1 transition-all duration-300 ease-in-out"
+                className="text-white hover:text-mainRed text-lg font-normal cursor-pointer px-1 transition-all duration-300 ease-in-out"
               >
                 {item.name}
               </a>
             );
           })}
-          <a href="https://kjsce.somaiya.edu/en">
-            <img
-              src="/images/somaiyaLogo1.jpg"
-              alt="Somaiya Trust"
-              className="w-40"
-            />
-          </a>
-          <a href="">
-            <img
-              src="/images/somaiyaLogo2.jpg"
-              alt="Somaiya Trust"
-              className="w-16"
-            />
-          </a>
+          <div className="hidden lg:flex gap-5">
+            <a href="https://kjsce.somaiya.edu/en">
+              <img
+                src="/images/somaiyaLogo1.jpg"
+                alt="Somaiya Trust"
+                className="w-40"
+              />
+            </a>
+            <a href="">
+              <img
+                src="/images/somaiyaLogo2.jpg"
+                alt="Somaiya Trust"
+                className="w-16"
+              />
+            </a>
+          </div>
         </div>
         <div className="md:hidden mt-6">
           <button onClick={toggleMenu}>

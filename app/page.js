@@ -95,8 +95,8 @@ export default function Home() {
                 </h3>
                 <p className="text-sm text-gray-50 dark:text-gray-400 text-center">
                   Compete with the best engineering minds nationally and
-                  internationally. We believe &quot;Manufacturing vehicles for all
-                  terrain is much cheaper than building roads for rough
+                  internationally. We believe &quot;Manufacturing vehicles for
+                  all terrain is much cheaper than building roads for rough
                   terrains&quot;.
                 </p>
               </div>
@@ -218,7 +218,7 @@ export default function Home() {
               <div className="flex flex-col justify-center space-y-4 items-end pr-48">
                 <div className="space-y-2 w-72 flex flex-row gap-3">
                   <h1 className="text-3xl text-white font-bold tracking-tighter sm:text-5xl xl:text-8xl/none">
-                  &quot;
+                    &quot;
                   </h1>
                   <h1 className="text-3xl text-white font-bold tracking-tighter sm:text-5xl xl:text-5xl/none">
                     Manufacturing vehicles for all terrain is much cheaper than
@@ -239,20 +239,20 @@ export default function Home() {
           <h2 className="text-3xl text-center text-white font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-7xl/none py-6">
             Contact Us
           </h2>
-          <p className="text-center w-1/2 py-6">
+          <p className="text-center w-2/3 md:w-1/2 py-6">
             To connect us with this beautiful journey contact us and see how our
             accomplishments stack up against the community
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center gap-10 mb-10">
-          <div className="border px-10 py-16 flex flex-col gap-10 items-center justify-center rounded-lg">
+          <div className="border px-10 py-16 flex flex-col gap-10 items-center justify-center rounded-lg w-72 md:w-96">
             <span className="text-4xl font-semibold">Prasad Joshi</span>
             <span className="flex items-center gap-2 text-xl">
               <img src="/icons/call.svg" alt="phone" />
               +91 7506067178
             </span>
           </div>
-          <div className="border px-10 py-16 flex flex-col gap-10 items-center justify-center rounded-lg">
+          <div className="border px-10 py-16 flex flex-col gap-10 items-center justify-center rounded-lg w-72 md:w-96">
             <span className="text-4xl font-semibold">Paras Maisheri</span>
             <span className="flex items-center gap-2 text-xl">
               <img src="/icons/call.svg" alt="phone" />
@@ -260,7 +260,7 @@ export default function Home() {
             </span>
           </div>
         </div>
-        <div className="w-full md:px-20">
+        <div className="w-full px-5 md:px-20">
           <iframe
             src="https://maps.google.com/maps?q=redshift%20racing%20india&t=&z=17&ie=UTF8&iwloc=&output=embed"
             className="w-full h-[500px]"
