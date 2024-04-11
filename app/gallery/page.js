@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { React,useState } from "react";
 import { ParallaxScroll } from "@/components/ui/parallax-scroll";
 import galleryImages from "@/constants/galleryImages";
 // import galleryImagesAll from "@/constants/galleryImagesAll";

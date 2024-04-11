@@ -218,7 +218,7 @@ export default function Home() {
               <div className="flex flex-col justify-center space-y-4 items-end pr-48">
                 <div className="space-y-2 w-72 flex flex-row gap-3">
                   <h1 className="text-3xl text-white font-bold tracking-tighter sm:text-5xl xl:text-8xl/none">
-                    "
+                  &quot;
                   </h1>
                   <h1 className="text-3xl text-white font-bold tracking-tighter sm:text-5xl xl:text-5xl/none">
                     Manufacturing vehicles for all terrain is much cheaper than
