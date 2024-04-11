@@ -95,9 +95,9 @@ export default function Home() {
                 </h3>
                 <p className="text-sm text-gray-50 dark:text-gray-400 text-center">
                   Compete with the best engineering minds nationally and
-                  internationally. We believe "Manufacturing vehicles for all
+                  internationally. We believe &quot;Manufacturing vehicles for all
                   terrain is much cheaper than building roads for rough
-                  terrains".
+                  terrains&quot;.
                 </p>
               </div>
             </div>
@@ -162,7 +162,7 @@ export default function Home() {
               />
               <div className="flex-1 p-4 grid gap-1">
                 <h5 className="text-sm text-gray-50 dark:text-gray-400">
-                  PATVIN Engineering joins RedShift as it's Title Sponsor
+                  PATVIN Engineering joins RedShift as it&apos;s Title Sponsor
                 </h5>
               </div>
             </div>
@@ -218,11 +218,11 @@ export default function Home() {
               <div className="flex flex-col justify-center space-y-4 items-end pr-48">
                 <div className="space-y-2 w-72 flex flex-row gap-3">
                   <h1 className="text-3xl text-white font-bold tracking-tighter sm:text-5xl xl:text-8xl/none">
-                    "
+                  &quot;
                   </h1>
                   <h1 className="text-3xl text-white font-bold tracking-tighter sm:text-5xl xl:text-5xl/none">
                     Manufacturing vehicles for all terrain is much cheaper than
-                    building roads for rough terrains."
+                    building roads for rough terrains.&quot;
                   </h1>
                 </div>
               </div>

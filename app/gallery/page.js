@@ -4,7 +4,7 @@ import { ParallaxScroll } from "@/components/ui/parallax-scroll";
 import galleryImages from "@/constants/galleryImages";
 import Loader from "@/components/Loader";
 
-const galleryPage = () => {
+const GalleryPage = () => {
   const filtersList = [
     "All",
     "Competition",
@@ -71,4 +71,4 @@ const galleryPage = () => {
   );
 };
 
-export default galleryPage;
+export default GalleryPage;
