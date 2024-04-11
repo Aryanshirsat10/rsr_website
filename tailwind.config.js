@@ -27,6 +27,8 @@ module.exports = {
 
       boxShadow: {
         teamShadow: "0px 0px 30px rgba(255, 0, 0, 0.2)",
+        loaderBox: "0px 0px 0px 1px rgba(255, 255, 255, 0.1)",
+        gearShadow: "0px -1px 0px 0px #888888, 0px 1px 0px 0px black;",
       },
       gridTemplateColumns: {
         gallery: "repeat(auto-fit, minmax(250px, 1fr))",
@@ -34,7 +36,9 @@ module.exports = {
     },
   },
   darkMode: "class",
-  plugins: [nextui({
-    addCommonColors: true,
-  })],
+  plugins: [
+    nextui({
+      addCommonColors: true,
+    }),
+  ],
 };

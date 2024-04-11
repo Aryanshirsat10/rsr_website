@@ -1,6 +1,6 @@
 import React from "react";
 import homeimg from "@/constants/homepageimages";
-import Link from "next/link"; 
+import Link from "next/link";
 
 export default function Home() {
   const backgroundImageLink = homeimg[0].link;
@@ -260,7 +260,7 @@ export default function Home() {
             </span>
           </div>
         </div>
-        <div className="w-full px-20">
+        <div className="w-full md:px-20">
           <iframe
             src="https://maps.google.com/maps?q=redshift%20racing%20india&t=&z=17&ie=UTF8&iwloc=&output=embed"
             className="w-full h-[500px]"

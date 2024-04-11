@@ -1,8 +1,8 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { ParallaxScroll } from "@/components/ui/parallax-scroll";
 import galleryImages from "@/constants/galleryImages";
-// import galleryImagesAll from "@/constants/galleryImagesAll";
+import Loader from "@/components/Loader";
 
 const galleryPage = () => {
   const filtersList = [
@@ -13,6 +13,7 @@ const galleryPage = () => {
     "Teams",
   ];
   const [selectedFilter, setSelectedFilter] = useState("All");
+  const [imagesLoaded, setImagesLoaded] = useState(false);
 
   const images = galleryImages.flatMap((item) => item.images);
 
@@ -21,6 +22,14 @@ const galleryPage = () => {
       ? images
       : galleryImages.find((category) => category.title === selectedFilter)
           ?.images || [];
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setImagesLoaded(true);
+    }, 3000);
+
+    return () => clearTimeout(timer);
+  }, [selectedFilter]);
 
   return (
     <section className="bg-black">
@@ -32,7 +41,7 @@ const galleryPage = () => {
           className="rounded-lg w-2/3 object-cover mt-24"
         ></video>
       </div>
-      <div className="flex justify-center items-center gap-10 mb-5">
+      <div className="flex  flex-wrap justify-center items-center gap-10 mb-5">
         {filtersList.map((filter, index) => {
           return (
             <button
@@ -49,8 +58,14 @@ const galleryPage = () => {
           );
         })}
       </div>
-      <div>
-        <ParallaxScroll images={filteredImages} />
+      <div className="relative ">
+        {!imagesLoaded ? (
+          <div className="py-20">
+            <Loader />
+          </div>
+        ) : (
+          <ParallaxScroll images={filteredImages} />
+        )}
       </div>
     </section>
   );
