@@ -6,7 +6,7 @@ import TeamCard from "@/components/TeamCard";
 import Loader from "@/components/Loader";
 import teamMembers from "@/constants/team";
 
-const teamPage = () => {
+const TeamPage = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -26,7 +26,7 @@ const teamPage = () => {
           <Tabs
             color="danger"
             classNames={{
-              tabList: "bg-cardBlack",
+              tabList: "bg-cardBlack flex-wrap md:flex-nowrap",
             }}
             size="lg"
           >
@@ -40,7 +40,7 @@ const teamPage = () => {
                       className="w-2/3 p-2 mx-4 object-cover h-[500px]"
                     />
                   </div>
-                  <div className="rounded-none border-none outline-none text-white bg-black flex flex-row w-full items-center justify-center content-center flex-wrap p-10">
+                  <div className="rounded-none border-none outline-none text-white bg-black flex flex-col md:flex-row w-full items-center justify-center content-center flex-wrap p-10">
                     {item.members.map((member, ind) => {
                       return (
                         <TeamCard
@@ -62,4 +62,4 @@ const teamPage = () => {
   );
 };
 
-export default teamPage;
+export default TeamPage;
