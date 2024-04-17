@@ -18,7 +18,7 @@ const journeycard = [
     year: "2021-22",
   },
   {
-    title: "Sharuya",
+    title: "Shaurya",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquam nisl sit amet lacus volutpat, vitae commodo odio tincidunt.Suspendisse libero purus, tincidunt in massa vel, eleifend aliquet mi. Sed erat lorem, posuere quis dolor ullamcorper, posuere bibendum arcu. Donec lacinia rutrum nibh faucibus malesuada. Quisque nonaliquam nibh, quis laoreet magna. Morbi blandit ex sed lorem blanditinterdum.",
     link: "https://res.cloudinary.com/do2a6xog2/image/upload/v1711952626/rsr/journey/shaurya_uio9d9.jpg",
     year: "2019-20",
@@ -33,7 +33,7 @@ const journeycard = [
     title: "Yudhaan 3.0",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquam nisl sit amet lacus volutpat, vitae commodo odio tincidunt.Suspendisse libero purus, tincidunt in massa vel, eleifend aliquet mi. Sed erat lorem, posuere quis dolor ullamcorper, posuere bibendum arcu. Donec lacinia rutrum nibh faucibus malesuada. Quisque nonaliquam nibh, quis laoreet magna. Morbi blandit ex sed lorem blanditinterdum.",
     link: "https://res.cloudinary.com/do2a6xog2/image/upload/v1711952625/rsr/journey/yudhaan3_lwt21o.jpg",
-    year: "2018-19",
+    year: "2017-18",
   },
   {
     title: "Yudhaan 2.0",

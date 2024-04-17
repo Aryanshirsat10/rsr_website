@@ -211,9 +211,8 @@ export default function Home() {
             <div className="grid gap-2 lg:grid-cols-[1fr_400px] xl:grid-cols-[1fr_600px]">
               <img
                 alt="Hero"
-                className="mx-auto aspect-video overflow-hidden rounded-lg object-bottom sm:w-full lg:order-last lg:aspect-square"
+                className="mx-auto aspect-video overflow-hidden rounded-lg object-bottom sm:w-full lg:order-last lg:aspect-square h-[450px]"
                 src={homeimg[4].link}
-                width="550"
               />
               <div className="flex flex-col justify-center space-y-4 items-end pr-48">
                 <div className="space-y-2 w-72 flex flex-row gap-3">
