@@ -41,7 +41,7 @@ const teamMembers = [
       },
       {
         role: "Chassis",
-        name: "Rahul Vemekar",
+        name: "Rahul Vernekar",
         position: "Member",
       },
       {
