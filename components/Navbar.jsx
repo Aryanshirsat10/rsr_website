@@ -98,7 +98,7 @@ const Navbar = () => {
                   <a
                     href={item.to}
                     key={index}
-                    className="text-purple text-3xl font-medium cursor-pointer py-2"
+                    className="text-purple text-2xl font-medium cursor-pointer py-2"
                   >
                     {item.name}
                   </a>
