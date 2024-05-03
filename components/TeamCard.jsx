@@ -10,7 +10,7 @@ const TeamCard = ({ name, role, position }) => {
           ({position})
         </div>
       ) : null}
-      <div className="text-2xl">{role}</div>
+      <div className="text-2xl text-center">{role}</div>
     </div>
   );
 };
