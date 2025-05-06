@@ -1,12 +1,5 @@
 const sponsors = [
   {
-    logo: "https://res.cloudinary.com/dma4lhef7/image/upload/v1712647370/website-images/sponsors/patvin_vjcdjx.png",
-    name: "Patvin Engineering",
-    intro:
-      "Proud to have Patvin Engineering as our title sponsor, It's a leading supplier of Turkey systems for alot of purposes. Whether small volume or large robotic systems, They're our first choice!",
-    link: "https://patvin.co.in/",
-  },
-  {
     logo: "https://res.cloudinary.com/dma4lhef7/image/upload/v1712647166/website-images/sponsors/yokohama-oht_cbh59d.png",
     name: "Yokohama-OHT",
     intro:

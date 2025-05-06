@@ -250,4 +250,101 @@ const achievements2 = [
   },
 ];
 
+const achievementjourn = [
+  {
+    "2021_22": {
+      "Pratyush_Competitions": {
+        "competitions": {
+          "baja_sae_india": "2022",
+          "mega_atv_championship": null
+        },
+        "indore": {
+          "achievements": {
+            "1st_place": "Preliminary round",
+            "5th_place": "Validation Event",
+            "8th_place_1": "Virtual Maneuverability",
+            "8th_place_2": "Acceleration Event (Physical)",
+            "8th_place_3": "4 Hour Endurance Race (Physical)",
+            "10th_place": "Overall Virtual Dynamics",
+            "11th_place": "Virtual Suspension and Traction",
+            "12th_place": "Virtual All Terrain Performance",
+            "8th_place_overall": "Overall in Baja SAE"
+          }
+        },
+        "goa": {
+          "achievements": {
+            "1st_place": "4 Hour Night Endurance Race",
+            "3rd_place": "Flat Dirt Race",
+            "5th_place": "Armageddon (Suspension and Traction)",
+            "2nd_place": "Overall in Mega ATV"
+          }
+        }
+      }
+    },
+    "2023": {
+      "BAJA_SAE_Oregon_2023": {
+        "achievements": {
+          "world_rank_24": "Business Plan Presentation",
+          "world_rank_30_1": "Design Report",
+          "world_rank_30_2": "Acceleration",
+          "world_rank_49": "Endurance",
+          "world_rank_48": "Overall"
+        }
+      },
+      "BAJA_SAE_India_2023": {
+        "total_teams": 195,
+        "achievements": {
+          "all_india_rank_2": {
+            "event": "Overall"
+          },
+          "all_india_rank_2_endurance": {
+            "event": "4-hour Endurance Race"
+          },
+          "all_india_rank_4_1": {
+            "event": "Suspension and Traction"
+          },
+          "all_india_rank_4_2": {
+            "event": "Overall Static Events"
+          },
+          "all_india_rank_4_3": {
+            "event": "Design Evaluation"
+          },
+          "all_india_rank_5_1": {
+            "event": "Virtual Dynamics"
+          },
+          "all_india_rank_6_1": {
+            "event": "Maneuverability"
+          },
+          "all_india_rank_6_2": {
+            "event": "Overall Dynamic Events"
+          },
+          "all_india_rank_7_1": {
+            "event": "Validation Event"
+          },
+          "all_india_rank_8_1": {
+            "event": "CAE Evaluation"
+          },
+          "all_india_rank_8_2": {
+            "event": "Cost Evaluation"
+          }
+        }
+      },
+      "Achievements_Amongst_195_Teams": {
+        "total_teams": 195,
+        "achievements": {
+          "all_india_rank_1": "4-Hour Durability Race",
+          "all_india_rank_2": "Overall",
+          "all_india_rank_3_1": "VDE All-Terrain Performance",
+          "all_india_rank_3_2": "VDE Maneuverability",
+          "all_india_rank_4": "Maneuverability Event",
+          "all_india_rank_5": "CAE Event",
+          "all_india_rank_6": "Cost Event",
+          "all_india_rank_7": "Suspension and Traction Event"
+        }
+      }
+    }
+  }
+  
+]
+
 export { journeycard, achievements, achievements2 };
