@@ -7,6 +7,13 @@ const sponsors = [
     link: "https://yokohama-oht.com/india/?nr=true",
   },
   {
+    logo: "https://res.cloudinary.com/dma4lhef7/image/upload/v1746550738/website-images/sponsors/bucephalus_ahnk2x.png",
+    name: "Bucephalus Ecovestment",
+    intro:
+      "At Bucephalus Ecovestment, we specialize in building sustainable industrial infrastructure through end-to-end, expert-led services. From pre-investment strategy to sustainable site development, we deliver purpose-built solutions for greenfield projects.",
+    link: "http://www.bucephalus.in",
+  },
+  {
     logo: "https://res.cloudinary.com/dma4lhef7/image/upload/v1712647188/website-images/sponsors/Somaiya_trust_lwmjaa.png",
     name: "Somaiya Trust",
     intro:
