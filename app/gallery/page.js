@@ -11,6 +11,7 @@ const GalleryPage = () => {
     "Manufacturing",
     "Testing",
     "Teams",
+    "Events"
   ];
   const [selectedFilter, setSelectedFilter] = useState("All");
   const [imagesLoaded, setImagesLoaded] = useState(false);

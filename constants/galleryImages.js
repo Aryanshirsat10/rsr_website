@@ -152,7 +152,7 @@ const galleryImages = [
     ],
   },
   {
-    title: "Unveiling",
+    title: "Events",
     images: [
       "https://res.cloudinary.com/dma4lhef7/image/upload/v1749046942/website-images/Unveiling/Princi_interaction_vemhlj.jpg",
       "https://res.cloudinary.com/dma4lhef7/image/upload/v1749046942/website-images/Unveiling/Unveiling_2_ajxq8p.jpg",
