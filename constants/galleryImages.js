@@ -151,6 +151,17 @@ const galleryImages = [
       "https://res.cloudinary.com/dma4lhef7/image/upload/v1712671450/website-images/testing/VideoSnapshot_20190512_193557-01_sg9pyj.jpg",
     ],
   },
+  {
+    title: "Unveiling",
+    images: [
+      "https://res.cloudinary.com/dma4lhef7/image/upload/v1749046942/website-images/Unveiling/Princi_interaction_vemhlj.jpg",
+      "https://res.cloudinary.com/dma4lhef7/image/upload/v1749046942/website-images/Unveiling/Unveiling_2_ajxq8p.jpg",
+      "https://res.cloudinary.com/dma4lhef7/image/upload/v1749046942/website-images/Unveiling/Before_unveiling_ziuoxk.jpg",
+      "https://res.cloudinary.com/dma4lhef7/image/upload/v1749046942/website-images/Unveiling/Unveiling_3_iehjpz.jpg",
+      "https://res.cloudinary.com/dma4lhef7/image/upload/v1749046941/website-images/Unveiling/Unveiling_1_bukcij.jpg",
+      "https://res.cloudinary.com/dma4lhef7/image/upload/v1749046941/website-images/Unveiling/Kshitij_after_unveiling_idvdzh.jpg"
+    ],
+  }
 ];
 
 export default galleryImages;
