@@ -33,19 +33,33 @@ const page = () => {
     </div>
   );
 };
-const Skeleton = ({imageUrl}) => (
-  <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-900 dark:from-neutral-900 dark:to-neutral-800 to-neutral-800 object-cover justify-center">
-    <img src={imageUrl} alt="Skeleton Image" className="h-full"></img>
-  </div>
- );
+const Skeleton = ({imageUrl}) => {
+  const isVideo = imageUrl.toLowerCase().endsWith('.mp4');
+  
+  return (
+    <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-900 dark:from-neutral-900 dark:to-neutral-800 to-neutral-800 object-cover justify-center">
+      {isVideo ? (
+        <video 
+          src={imageUrl}  
+          autoPlay 
+          muted 
+          loop 
+          className="h-full w-full object-cover rounded-xl"
+        ></video>
+      ) : (
+        <img src={imageUrl} alt="Skeleton Image" className="h-full"></img>
+      )}
+    </div>
+  );
+}
  
 const items = [
   {
-    title: "PATVIN Engineering joins RedShift as it's Title Sponsor",
-    // description: "Explore the birth of groundbreaking ideas and inventions.",
-    header: <Skeleton imageUrl="https://res.cloudinary.com/dma4lhef7/image/upload/v1712764930/website-images/announcements/patvin_title_sponsor_deskvz.png"/>,
+    title: "Bucephalus ecovestment joins Redshift Racing India as it's Principal Sponsor",
+    // description: "Discover the beauty of thoughtful and functional design.",
+    header: <Skeleton imageUrl="https://res.cloudinary.com/dma4lhef7/video/upload/v1749044789/website-images/announcements/Latest_Bucephalus_announcement_pfhtfl.mp4"/>,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
-    link: "https://res.cloudinary.com/dma4lhef7/image/upload/v1712764930/website-images/announcements/patvin_title_sponsor_deskvz.png",
+    link: "https://res.cloudinary.com/dma4lhef7/video/upload/v1749044789/website-images/announcements/Latest_Bucephalus_announcement_pfhtfl.mp4",
   },
   {
     title: "RedShift Racing India is thankful to RAJESH ENGINEERING for their significant support",

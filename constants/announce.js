@@ -14,6 +14,13 @@ import {
   );
   const items = [
     {
+      title: "Bucephalus ecovestment joins Redshift Racing India as it's Principal Sponsor",
+      // description: "Discover the beauty of thoughtful and functional design.",
+      header: <Skeleton />,
+      icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
+      link: "https://res.cloudinary.com/dma4lhef7/video/upload/v1749044789/website-images/announcements/Latest_Bucephalus_announcement_pfhtfl.mp4",
+    },
+    {
       title: "PATVIN Engineering joins RedShift as it's Title Sponsor",
       // description: "Explore the birth of groundbreaking ideas and inventions.",
       header: <Skeleton />,

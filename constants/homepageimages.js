@@ -19,5 +19,9 @@ const homeimg = [
     title: "section",
     link: "https://res.cloudinary.com/dma4lhef7/image/upload/v1712669876/website-images/edited%20photos/WhatsApp_Image_2024-04-09_at_19.06.24_rukix5.jpg",
   },
+  {
+    title: "herosection announcement",
+    link: "https://res.cloudinary.com/dma4lhef7/video/upload/v1749046128/website-images/home%20page%20announcements/Participation_announcement_iabveg.mp4"
+  }
 ];
 export default homeimg;

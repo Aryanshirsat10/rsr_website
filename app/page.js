@@ -1,10 +1,32 @@
-import React from "react";
+"use client"
+import React, { useState, useEffect } from "react";
 import homeimg from "@/constants/homepageimages";
 import Link from "next/link";
 
 export default function Home() {
   const backgroundImageLink = homeimg[0].link;
-
+  const announcementVideoLink = homeimg[5].link;
+  const [showAnnouncement, setShowAnnouncement] = useState(false);
+  useEffect(() => {
+    // Check if today is within the specified date range
+    const today = new Date();
+    const endDate = new Date('2023-06-16'); // June 16th, 2023
+    
+    // Set the year to the current year for the end date
+    endDate.setFullYear(today.getFullYear());
+    
+    // Only show announcement if today is before or on the end date
+    if (today <= endDate) {
+      setShowAnnouncement(true);
+      
+      // Auto-hide the announcement after 30 seconds
+      const timer = setTimeout(() => {
+        setShowAnnouncement(false);
+      }, 30000); // 30 seconds
+      
+      return () => clearTimeout(timer);
+    }
+  }, []);
   return (
     <div className="w-full bg-black">
       <section className="flex flex-col h-screen">
@@ -17,6 +39,38 @@ export default function Home() {
             backgroundRepeat: "no-repeat",
           }}
         >
+          {/* Timed Announcement Video Overlay with Date Range Check */}
+          {showAnnouncement && (
+            <div className="absolute inset-0 bg-black bg-opacity-70 z-10 flex flex-col items-center justify-center p-4 transition-opacity duration-500">
+              <div className="relative w-full max-w-4xl mx-auto" style={{ marginTop: "10vh" }}>
+                <button 
+                  onClick={() => setShowAnnouncement(false)}
+                  className="absolute top-2 right-2 z-20 bg-white bg-opacity-20 rounded-full p-1 hover:bg-opacity-40 transition-all"
+                  aria-label="Close announcement"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                  </svg>
+                </button>
+                <div className="text-white text-2xl font-bold mb-3 text-center">Special Announcement</div>
+                <video 
+                  className="w-full rounded-lg shadow-lg h-auto"  
+                  autoPlay
+                  muted 
+                  src={announcementVideoLink}
+                >
+                  Your browser does not support the video tag.
+                </video>
+                <div className="text-white text-xl mt-2 text-center font-bold">
+                  Our team is participating in BAJA SAE MARYLAND! Watch the announcement above.
+                </div>
+                <div className="text-white text-xs mt-4 text-center">
+                  This announcement will close automatically in 30 seconds.
+                </div>
+              </div>
+            </div>
+          )}
           {/* <img src={backgroundImageLink} alt="Hero Image" className="absolute inset-0 w-full h-96 object-cover"/> */}
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center pt-72 md:pt-64 lg:pt-80 xl:pt-64 min-[2560px]:pt-[60%] min-[2560px]:pl-[50%]">
@@ -154,15 +208,17 @@ export default function Home() {
           </div>
           <div className="grid max-w-7xl grid-cols-1 items-start justify-center px-4 mx-auto gap-6 sm:grid-cols-2 md:px-6 lg:grid-cols-3">
             <div className="flex flex-col rounded-lg border border-gray-900 bg-gray-850 overflow-hidden shadow-xl dark:border-gray-800 dark:bg-gray-950">
-              <img
-                alt="Car model"
+              <video
+                autoPlay
+                muted
+                loop
                 className="aspect-[2/1] object-cover object-center"
                 height="200"
-                src="https://res.cloudinary.com/dma4lhef7/image/upload/v1712764930/website-images/announcements/patvin_title_sponsor_deskvz.png"
+                src="https://res.cloudinary.com/dma4lhef7/video/upload/v1749044789/website-images/announcements/Latest_Bucephalus_announcement_pfhtfl.mp4"
               />
               <div className="flex-1 p-4 grid gap-1">
                 <h5 className="text-sm text-gray-50 dark:text-gray-400">
-                  PATVIN Engineering joins RedShift as it&apos;s Title Sponsor
+                  Bucephalus ecovestment joins Redshift Racing India as it&apos;s Principal Sponsor
                 </h5>
               </div>
             </div>

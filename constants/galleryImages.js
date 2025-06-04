@@ -61,6 +61,16 @@ const galleryImages = [
   {
     title: "Manufacturing",
     images: [
+      /*{Routing}*/
+      "https://res.cloudinary.com/dma4lhef7/video/upload/v1749046960/website-images/Routing/routing_2_wklkth.mp4",
+      "https://res.cloudinary.com/dma4lhef7/video/upload/v1749046959/website-images/Routing/routing_1_bxlup1.mp4",
+      "https://res.cloudinary.com/dma4lhef7/image/upload/v1749046958/website-images/Routing/In-house_Routing_bwh06l.jpg",
+      "https://res.cloudinary.com/dma4lhef7/image/upload/v1749046957/website-images/Routing/Fixtures_xrjssc.jpg",
+      /*{Welding}*/
+      "https://res.cloudinary.com/dma4lhef7/image/upload/v1749047012/website-images/Welding/Welding_rpbrcq.jpg",
+      "https://res.cloudinary.com/dma4lhef7/image/upload/v1749047012/website-images/Welding/Welding_live_xrwxan.jpg",
+      "https://res.cloudinary.com/dma4lhef7/image/upload/v1749047011/website-images/Welding/Welding_setup_3_hfra1c.jpg",
+      "https://res.cloudinary.com/dma4lhef7/image/upload/v1749047010/website-images/Welding/RRH_welding_ezcb7z.jpg",
       "https://res.cloudinary.com/dma4lhef7/image/upload/v1712671722/website-images/manufacturing/man14_hqdwr6.jpg",
       "https://res.cloudinary.com/dma4lhef7/image/upload/v1712671721/website-images/manufacturing/man23_cs2aoy.jpg",
       "https://res.cloudinary.com/dma4lhef7/image/upload/v1712671718/website-images/manufacturing/man21_irfmwn.jpg",
