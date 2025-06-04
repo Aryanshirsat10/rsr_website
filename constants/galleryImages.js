@@ -119,6 +119,9 @@ const galleryImages = [
   {
     title: "Testing",
     images: [
+      "https://res.cloudinary.com/dma4lhef7/image/upload/v1749051574/website-images/Done%20website/IMG_6142_rkuebn.png",
+      "https://res.cloudinary.com/dma4lhef7/image/upload/v1749051567/website-images/Done%20website/IMG_6141_ajrkch.png",
+      "https://res.cloudinary.com/dma4lhef7/image/upload/v1749051567/website-images/Done%20website/IMG_2311_dmjs6g.jpg",
       "https://res.cloudinary.com/dma4lhef7/image/upload/v1712671505/website-images/testing/test6_etvsq0.jpg",
       "https://res.cloudinary.com/dma4lhef7/image/upload/v1712671492/website-images/testing/test13_krz5fa.jpg",
       "https://res.cloudinary.com/dma4lhef7/image/upload/v1712671491/website-images/testing/test17_zbzbhs.jpg",
